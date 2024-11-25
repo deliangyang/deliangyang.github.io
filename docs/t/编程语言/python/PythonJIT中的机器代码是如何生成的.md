@@ -1,6 +1,8 @@
 
 为了研究 Python JIT 是如何运行的，我们需要将源码编译成 DEBUG 模式的二进制文件，Python 源码编译需要增加参数 `--enable-experimental-jit --with-pydebug --with-trace-refs`。依旧使用 VSCode 对源码进行调试。之前有一篇文章介绍 [Python 内核源码解析：使用 VS Code 调试 Python 内核代码](https://mp.weixin.qq.com/s/oVYkxo6UOqJwhOxD2RN7CA)。需要注意的是，我们使用 docker 编译生成 Python 二进制程序，在目录映射上需要保持一致，也就是 volumes 的映射路径一致。这样，在断点调试的时候，VSCode 就能够找到对应文件的行号。
 
+Python JIT 机器代码的生成其实用不到调试，直接看 Python 的源码就可以知道。
+
 Python JIT 的核心文件是 `jit_stencils.h`，该文件存储了 Python 指令与机器代码的映射关系。该文件是编译过程中生成的，因为 CPU 的架构不同，机器代码也不同，Python 3.1.4 JIT 支持如下编译工具链：
 
 - aarch64-apple-darwin/clang
@@ -96,3 +98,5 @@ async def _compile(
     await _llvm.run("clang", args, echo=self.verbose)
     return await self._parse(o)
 ```
+
+Python 的 JIT 目前仍处于实验性阶段，所有我们没必要投入过多的精力去深入的了解 Python JIT 是如何运作的。要知道，这无非就是一个从“解释并执行”，转变成为“将字节码翻译成机器码，然后由系统执行”的过程。
