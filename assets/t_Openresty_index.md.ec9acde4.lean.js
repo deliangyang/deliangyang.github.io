@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.a08aad5f.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"t/Openresty/index.md","lastUpdated":1732549298000}'),n={name:"t/Openresty/index.md"};function r(s,o,c,d,p,i){return a(),t("div")}const f=e(n,[["render",r]]);export{m as __pageData,f as default};
