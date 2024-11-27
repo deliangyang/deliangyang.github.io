@@ -19,7 +19,8 @@ sudo docker run -it \
 接下来我就讲讲这个过程，上一篇文章也讲过，这个过程通过执行一个 Python 的脚本生成机器代码完成的。我们将输出重定向到 1.txt，然后通过 awk 和 uniq 命令统计了一下需要用到的命令行工具，根据数量我们也可以推断出有 268 个指令进行了转换。通过命令 `cat jit_stencils.h |grep -oP '{emit_' | uniq -c` 也可以验证我们的推断是正确的，但是其中有一个指令是 `emit_shim`。
 
 ```bash
-python3 ./Tools/jit/build.py x86_64-pc-linux-gnu --debug -v -f > 1.txt
+python3 ./Tools/jit/build.py x86_64-pc-linux-gnu \ 
+    --debug -v -f > 1.txt
 
 # x86_64-pc-linux-gnu 是编译工具链
 # --debug 开启 debug 模式
@@ -233,10 +234,11 @@ exit_to_tier1_dynamic:
 <b>用来生成 code_body 注释的</b>。光看代码不如自己实践一下（如果命令执行失败，试着去掉 \ 和换行，让命令保持一行执行），将上面的 c 代码拷贝到一个文件中，然后替换一下 clang 命令中的 c 文件名称，然后生成 .o 文件。拿到文件之后，我们就可以执行 llvm-objdump 输出汇编代码，也就是 jit_stencils.h 每个 emit 函数的注释，
 
 ```bash
-llvm-objdump --disassemble --reloc /tmp/tmp1u5tn8__/_BINARY_OP.o
+llvm-objdump --disassemble --reloc \ 
+    /tmp/tmp1u5tn8__/_BINARY_OP.o
 ```
 
-生成的汇编代码如下：
+objdump 如下：
 
 ```s
 llvm-objdump --disassemble --reloc /tmp/_BINARY_OP.o
