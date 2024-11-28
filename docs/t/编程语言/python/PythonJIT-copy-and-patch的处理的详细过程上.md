@@ -1,12 +1,13 @@
 
-Python 的 JIT 是通过 copy-and-patch 技术实现的，那这种技术是怎么实现的呢？
+Python JIT（Just In Time）是通过 copy-and-patch 编译技术实现的。copy-andpatch 是什么，其实现原理是什么？
 
 > In computing, copy-and-patch compilation is a simple compiler technique intended for just-in-time compilation (JIT compilation) that uses pattern matching to match pre-generated templates to parts of an abstract syntax tree (AST) or bytecode stream, and emit corresponding pre-written machine code fragments that are then patched to insert memory addresses, register addresses, constants and other parameters to produce executable code. Code not matched by templates can be either be interpreted in the normal way, or code created to directly call interpreter code.  
+>  
 > 在计算中，复制和修补编译是一种简单的编译器技术，旨在用于即时编译，它使用模式匹配将预生成的模板与抽象语法树或字节码流的部分进行匹配，并发出相应的预编写机器然后修补代码片段以插入内存地址、寄存器地址、常量和其他参数以生成可执行代码。与模板不匹配的代码可以以正常方式解释，也可以创建代码来直接调用解释器代码。
 
 ### 使用 docker 搭建研究环境
 
-由于编译 Python-3.14.0a 编译环境复杂，我使用了 docker 来编译的，所以研究 jit 机器代码生成也需要借助 docker 来完成，执行如下 shell 进入镜像：
+Python JIT 目前还在实验阶段，编译条件依赖 llvm 和 clang-19，导致 Python-3.14.0a 的编译过程变得异常复杂。接下来研究的环境继续使用 docker。可以执行如下 shell 进入镜像：
 
 ```bash
 sudo docker run -it \ 
@@ -16,21 +17,29 @@ sudo docker run -it \
 
 ### 执行脚本生成 jit_stencils.h
 
-接下来我就讲讲这个过程，上一篇文章也讲过，这个过程通过执行一个 Python 的脚本生成机器代码完成的。我们将输出重定向到 1.txt，然后通过 awk 和 uniq 命令统计了一下需要用到的命令行工具，根据数量我们也可以推断出有 268 个指令进行了转换。通过命令 `cat jit_stencils.h |grep -oP '{emit_' | uniq -c` 也可以验证我们的推断是正确的，但是其中有一个指令是 `emit_shim`。
+这里再详细的描述一下 jit_stencils.h 的生成过程。我们将如下 shell 的输出重定向到 output.txt。
 
 ```bash
 python3 ./Tools/jit/build.py x86_64-pc-linux-gnu \ 
-    --debug -v -f > 1.txt
+    --debug -v -f > output.txt
 
 # x86_64-pc-linux-gnu 是编译工具链
 # --debug 开启 debug 模式
 # -v 输出调试信息，也就是脚本中的执行命令，主要包括
 # -f 强制执行，输出文件 jit_stencils.h
+```
+
+通过 awk 和 uniq 命令可以统计生成过程中调用了哪些命令行工具，根据输出结果，我们也可以推断出程序对 268 个指令进行了转换和机器代码提取。
+
+```bash
 cat 1.txt | grep -v version | awk '{print $1}' | sort | uniq -c
 #    268 clang
 #    268 llvm-objdump
 #    268 llvm-readobj
 ```
+
+通过执行命令 `cat jit_stencils.h |grep -oP '{emit_' | uniq -c` 验证了我们的推断是正确的，但是其中有一个指令是 `emit_shim`。
+
 
 ### clang 做了什么？
 
@@ -48,10 +57,20 @@ clang --target=x86_64-pc-linux-gnu \
     /tmp/tmp1u5tn8__/_BINARY_OP.c -fpic
 ```
 
--03 很好理解，就是使用最佳性能优化
-> '-O3' to enable only conforming optimizations  
+- --taget 就是编译工具链
+- D 宏的定义
+    >   \<macro>=\<value>  
+    >   Define \<macro> to \<value> (or 1 if \<value> omitted)  
+    >   Disable control flow integrity (CFI) checks for cross-DSO calls.  
+    >   Enable control flow integrity (CFI) checks for cross-DSO calls.  
 
--o 生成的 object 文件，/tmp/tmp1u5tn8__/_BINARY_OP.c 是将 Python/executor_cases.c.h 中 case _BINARY_OP 的代码块拷贝插入模版文件生成的 c 文件。我们稍微调整一下代码，读取 c 文件，将 /tmp/tmp1u5tn8__/_BINARY_OP.c 的内容打印出来。
+- -03 很好理解，就是使用最佳性能优化
+    > '-O3' to enable only conforming optimizations  
+- -I 引入头文件
+- -c 只运行预处理、编译和装配步骤
+    > Only run preprocess, compile, and assemble steps
+
+clang 命令行工具的参数太多了，全部介绍意义不大，我将上面几个比较重要的做了一下说明。-o 后面的值是生成的 object 文件路径，临时文件 /tmp/tmp1u5tn8__/_BINARY_OP.c 是将 Python/executor_cases.c.h 中 case _BINARY_OP 的代码块拷贝插入模版文件后生成的 c 文件。我们稍微调整一下 Python 的代码，读取 c 文件，然后将 /tmp/tmp1u5tn8__/_BINARY_OP.c 的内容打印出来。
 
 ```python
 # Tools/jit/_targets.py+143
@@ -63,7 +82,7 @@ clang --target=x86_64-pc-linux-gnu \
     await _llvm.run("clang", args, echo=self.verbose)
 ```
 
-如下代码是指令 _BINARY_OP 的 c 代码。引入了大量的头文件，添加了一堆预处理定义，对照其它指令生成的 c 文件，大部分的内容都是相同的，不同之处就是 case，这个 case 的内容也是从文件 Python/executor_cases.c.h 中对应的 case 复制过来的。
+如下 c 代码是指令 _BINARY_OP 模版嵌套后生成的代码。从代码可以看出，该文件引入了大量的头文件，添加了一堆预处理定义，对照其它指令生成的 c 文件，你会发现文件大部分的内容都是相同的，不同之处就是 case 的代码块，而这个 case 的代码块是从文件 Python/executor_cases.c.h 对应的 case 复制过来的。
 
 ```c
 #include "Python.h"
@@ -231,14 +250,14 @@ exit_to_tier1_dynamic:
 
 ### llvm-objdump 做了什么？
 
-<b>用来生成 code_body 注释的</b>。光看代码不如自己实践一下（如果命令执行失败，试着去掉 \ 和换行，让命令保持一行执行），将上面的 c 代码拷贝到一个文件中，然后替换一下 clang 命令中的 c 文件名称，然后生成 .o 文件。拿到文件之后，我们就可以执行 llvm-objdump 输出汇编代码，也就是 jit_stencils.h 每个 emit 函数的注释，
+<b>llvm-objdump 用来生成 code_body 的注释</b>。光看代码，不自己实践一下，很难加深理解（如果命令执行失败，试着去掉 \ 和换行，让命令保持一行执行）。将上面的 c 代码拷贝到一个文件中，然后替换一下 clang 命令中的 c 文件名称，执行命令生成 .o 文件。拿到文件之后，我们就可以执行 llvm-objdump 输出 object dump 了，如果你对这些比较敏感的话，就会发现，输出内容其实就是 jit_stencils.h 每个 emit 函数的注释。
 
 ```bash
 llvm-objdump --disassemble --reloc \ 
     /tmp/tmp1u5tn8__/_BINARY_OP.o
 ```
 
-objdump 如下：
+object dump 如下：
 
 ```s
 llvm-objdump --disassemble --reloc /tmp/_BINARY_OP.o
@@ -369,7 +388,7 @@ llvm-readobj --elf-output-style=JSON \
     --sections /tmp/tmp1u5tn8__/_BINARY_OP.o
 ```
 
-<b>输出 JSON 文件，获取二进制内容的</b>。将 llvm-readobj 的 .o 文件替换为前面两个步骤使用的 .o 文件。执行命名输出 JSON。输出内容较多，这里就一一展示，我们可以动手实践输出看看。`const unsigned char code_body[350]` 和 `const unsigned char data_body[448]` 的 16 进制 shellcode 都可以在这个 JSON 中找到，不过其内容是 10 进制的数组。
+<b>llvm-readobj 会输出 JSON 内容，解析这个 JSON，可以获取指令对应的机器代码</b>。将 llvm-readobj 的 .o 文件替换为前面两个步骤使用的 .o 文件。执行上面被替换的命名输出 JSON，由于输出内容较多，就不全部展示，具体内容可以自己动手实践输出试试。`const unsigned char code_body[350]` 和 `const unsigned char data_body[448]` 中 16 进制 shellcode 都可以在这个 JSON 中找到，不过其内容是 10 进制的数组。JSON 主要由 FileSummary 和 数组 Sections 组成。
 
 ```json
 [
@@ -397,4 +416,37 @@ llvm-readobj --elf-output-style=JSON \
 ]
 ```
 
-至于 jit_stencils.h 每个 emit__* 函数后面的函数调用，如 memcpy，patch_64，patch_32r，patch_x86_64_32rx 等等就是内存拷贝，以及替换相应位置的二进制内容，这里涉及的内容比较复杂，我们在后面的文章中详细分析。
+也许你会好奇 JSON 里面有些什么。将 JSON 保存到文件内，使用命令行工具 jq（需要自己安装）查看：
+
+```bash
+cat binary_op.json | \ 
+    jq .[0].Sections[].Section.Name.Name | \ 
+    sed 's/"//g'
+```
+
+- .strtab
+- .text
+- .rela.text
+- .rodata.str1.1
+- .comment
+- .note.GNU-stack
+- .llvm_addrsig
+- .symtab
+
+code_body 的字节码可以通过如下命令查出：
+
+```bash
+cat binary_op.json | \
+    jq '.[0].Sections[].Section | select(.Name.Name== ".text") | .SectionData' | \ 
+    head
+```
+
+data_body 的字节码可以通过如下命令查出：
+
+```bash
+cat binary_op.json | \
+    jq '.[0].Sections[].Section | select(.Name.Name== ".rodata.str1.1") | .SectionData' | \ 
+    head
+```
+
+至于 jit_stencils.h 每个 emit__* 函数后面的函数调用，如 memcpy，patch_64，patch_32r，patch_x86_64_32rx 等等，就是一些内存拷贝，替换相应位置机器代码的操作，这里涉及的内容比较复杂，我会在后面的文章中详细分析。
