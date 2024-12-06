@@ -10,8 +10,8 @@ Python JIT（Just In Time）是通过 copy-and-patch 编译技术实现的。cop
 Python JIT 目前还在实验阶段，编译条件依赖 llvm 和 clang-19，导致 Python-3.14.0a 的编译过程变得异常复杂。接下来研究的环境继续使用 docker。可以执行如下 shell 进入镜像：
 
 ```bash
-sudo docker run -it \ 
-    -v /home/yourhome/Python-3.14.0a2:/home/yourhome/Python-3.14.0a2 \ 
+sudo docker run -it \
+    -v /home/yourhome/Python-3.14.0a2:/home/yourhome/Python-3.14.0a2 \
     "silkeh/clang:19"
 ```
 
@@ -20,7 +20,7 @@ sudo docker run -it \
 这里再详细的描述一下 jit_stencils.h 的生成过程。我们将如下 shell 的输出重定向到 output.txt。
 
 ```bash
-python3 ./Tools/jit/build.py x86_64-pc-linux-gnu \ 
+python3 ./Tools/jit/build.py x86_64-pc-linux-gnu \
     --debug -v -f > output.txt
 
 # x86_64-pc-linux-gnu 是编译工具链
@@ -44,16 +44,16 @@ cat 1.txt | grep -v version | awk '{print $1}' | sort | uniq -c
 ### clang 做了什么？
 
 ```bash
-clang --target=x86_64-pc-linux-gnu \ 
-    -DPy_BUILD_CORE_MODULE -D_DEBUG -D_JIT_OPCODE=_BINARY_OP -D_PyJIT_ACTIVE -D_Py_JIT \ 
-    -I. -I/home/yourhome/Python-3.14.0a2/Include \ 
-    -I/home/yourhome/Python-3.14.0a2/Include/internal \ 
-    -I/home/yourhome/Python-3.14.0a2/Include/internal/mimalloc \ 
-    -I/home/yourhome/Python-3.14.0a2/Python \ 
-    -I/home/yourhome/Python-3.14.0a2/Tools/jit \ 
-    -O3 \ 
-    -c -fno-asynchronous-unwind-tables -fno-builtin -fno-plt -fno-stack-protector -std=c11 \ 
-    -o /tmp/tmp1u5tn8__/_BINARY_OP.o \ 
+clang --target=x86_64-pc-linux-gnu \
+    -DPy_BUILD_CORE_MODULE -D_DEBUG -D_JIT_OPCODE=_BINARY_OP -D_PyJIT_ACTIVE -D_Py_JIT \
+    -I. -I/home/yourhome/Python-3.14.0a2/Include \
+    -I/home/yourhome/Python-3.14.0a2/Include/internal \
+    -I/home/yourhome/Python-3.14.0a2/Include/internal/mimalloc \
+    -I/home/yourhome/Python-3.14.0a2/Python \
+    -I/home/yourhome/Python-3.14.0a2/Tools/jit \
+    -O3 \
+    -c -fno-asynchronous-unwind-tables -fno-builtin -fno-plt -fno-stack-protector -std=c11 \
+    -o /tmp/tmp1u5tn8__/_BINARY_OP.o \
     /tmp/tmp1u5tn8__/_BINARY_OP.c -fpic
 ```
 
@@ -253,7 +253,7 @@ exit_to_tier1_dynamic:
 <b>llvm-objdump 用来生成 code_body 的注释</b>。光看代码，不自己实践一下，很难加深理解（如果命令执行失败，试着去掉 \ 和换行，让命令保持一行执行）。将上面的 c 代码拷贝到一个文件中，然后替换一下 clang 命令中的 c 文件名称，执行命令生成 .o 文件。拿到文件之后，我们就可以执行 llvm-objdump 输出 object dump 了，如果你对这些比较敏感的话，就会发现，输出内容其实就是 jit_stencils.h 每个 emit 函数的注释。
 
 ```bash
-llvm-objdump --disassemble --reloc \ 
+llvm-objdump --disassemble --reloc \
     /tmp/tmp1u5tn8__/_BINARY_OP.o
 ```
 
@@ -380,11 +380,11 @@ Disassembly of section .text:
 ### llvm-readobj 做了什么？
 
 ```bash
-llvm-readobj --elf-output-style=JSON \ 
-    --expand-relocs \ 
-    --section-data \ 
-    --section-relocations \ 
-    --section-symbols \ 
+llvm-readobj --elf-output-style=JSON \
+    --expand-relocs \
+    --section-data \
+    --section-relocations \
+    --section-symbols \
     --sections /tmp/tmp1u5tn8__/_BINARY_OP.o
 ```
 
