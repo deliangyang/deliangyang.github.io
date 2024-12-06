@@ -1,7 +1,9 @@
 
-jit_stencils.h 前面两个数组的定义其实很好理解，可以很容易的知道是怎么生成。copy-and-patch 最难的过程应该是 patch，因为不知道在哪个位置对机器码和数据块打补丁。
+Python 编译时生成的文件 jit_stencils.h，在这个文件中前面两个数组的定义其实很好理解，我们也可以很容易的知道它们是怎么生成。copy-and-patch 最难的过程不是 copy，而是 patch，因为我们不知道如何打补丁，具体在哪个位置对机器码和数据块修改打补丁。
 
-同时，你应该也会好奇这些函数是 patch_64，patch_32r，patch_x86_64_32rx 等等是做什么用的。
+看到生成的文件，你应该会好奇这些函数是 patch_64，patch_32r，patch_x86_64_32rx 等等是做什么用的，然后他们的参数为什么这么奇怪，有些是 data 加一个偏移量，有些是 code 加一个十六进制的偏移量，第二个参数有些是 Python 的变量，另一部是 data 的指针位置加一个偏移量。
+
+如下代码便是操作码 BINARY_OP 生成的 jit 函数。
 
 ```
 void
@@ -36,10 +38,26 @@ emit__BINARY_OP(
     patch_x86_64_32rx(code + 0xd9, (uintptr_t)data + 0x4c);
 ```
 
-memcpy(data, data_body, sizeof(data_body)); 是将 data_body 的内存拷贝到 data 中，同理 memcpy(code, code_body, sizeof(code_body)); 将 code_body 的内存拷贝到 code。
+看代码找规律，代码分为两个部分一部分是 data，一部分是 code，分别由 memcpy 领头。紧随其后的是不同的 patch 参数，有两个参数，data 部分的第一个参数是 data 加上偏移量，第二个参数是具体的变量，没有偏移量。而 code 部分第一个参数是 data 加上偏移量，第二个参数都是 (uintptr_t)data 加上一个十六进制的数值。要分析就需要从代码中找出这些规律来，以便我们更好的推进分析。
 
-随便找个函数在 Tools/jit 进行搜索可以找到补丁函数的映射关系，x86_64-unknown-linux-gnu 对应的补丁函数较少，大大减轻了我们研究的成本。
+memcpy 的作用很好理解，就是内存拷贝。memcpy(data, data_body, sizeof(data_body)) 是将 data_body 的内存拷贝到 data 中；同理 memcpy(code, code_body, sizeof(code_body)) 将 code_body 的内存拷贝到 code。
 
+随便找个函数，在目录 Tools/jit 下进行搜索，可以找到这个补丁函数的映射关系。x86_64-unknown-linux-gnu 对应的补丁函数较少，本着学习研究的目的，由简入繁，决定先找个比较轻松的 target（x86_64-unknown-linux-gnu）的研究。
+
+Tools/jit 目录下没几个 Python 文件
+- Tools/jit/_llvm.py 
+  - 构造并执行 llvm 相关命令
+- Tools/jit/_schema.py 
+  - Section 的定义，如：ELFSection
+- Tools/jit/_stencils.py 
+  - 将 JSON 文件的内容转换为我们需要的数据结构
+- Tools/jit/_targets.py 
+  - 不同平台的可执行程序二进制文件的数据结构，如 _ELF，_MachO 等
+- Tools/jit/_writer.py
+  - dump 数据，按照固定的模版，将活动的数据嵌入模版中，并写入到文件中
+
+
+如下是 Python 生成 emit 函数相关的代码。我们可以不用了解每个 Python 类和函数的具体实现。但是需要简单知道它们的作用。
 
 ```python
 # Map relocation types to our JIT's patch functions. "r" suffixes indicate that
