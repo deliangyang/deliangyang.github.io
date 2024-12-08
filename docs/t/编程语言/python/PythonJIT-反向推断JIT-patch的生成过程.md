@@ -100,7 +100,8 @@ def _signed(value: int) -> int:
     return value
 ```
 
-如何找到 addend 和 kind = 'R_X86_64_GOTPCRELX'？在上一篇文章中，我们通过 llvm-readobj 打印出了一个 JSON，从 JSON 中我们就可以找到。
+如何找到 addend 和 kind = 'R_X86_64_GOTPCRELX'？在上一篇文章中，我们通过 llvm-readobj 打印出了一个 JSON，从 JSON 中我们就可以找到。在 Linux 下二进制可执行文件的结构为 ELF，所有我们只需要关注 _targets.py 文件的 `class _ELF():`，它便是将 JSON 转化为我们需要的 Hold 结构的关键逻辑所在。
+
 ```json
 {
     "Relocation": {
@@ -118,7 +119,7 @@ def _signed(value: int) -> int:
 }
 ```
 
-value 映射
+value 映射关系，每个 HodeValues 有一个对应的 C 表达式，作为 patch 的第二个参数或者参数的一部分。
 
 ```python
 # Translate HoleValues to C expressions:
@@ -142,3 +143,7 @@ _HOLE_EXPRS = {
     HoleValue.ZERO: "",
 }
 ```
+
+在 _targets.py 和 _stencils.py 处理之后，拿到我们需要的 Hole 数组后，_writer.py 的处理逻辑会遍历这个数组，按照模版数据填充的方式将这些 patch 写入到 jit_stencils.h 中。这样整个字节码转化为 JIT 机器代码的工作就结束了。
+
+patch 之后是 Python 源码的继续编译。我们接下来的疑问是：这些 patch 代码是如果工作的？这个 patch 在 Python runtime 如何被运行？带着这些问题我们将继续探索。
