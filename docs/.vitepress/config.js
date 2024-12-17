@@ -18,6 +18,19 @@ export default {
   head: [
     ['link', { rel: 'stylesheet', href: 'https://qiniu.techgrow.cn/readmore/dist/readmore.css' },],
     ['script', { src: 'https://qiniu.techgrow.cn/readmore/dist/readmore.js', type: 'text/javascript' }],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-VFFHZVDPEW' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VFFHZVDPEW');`
+    ]
   ],
   themeConfig: {
     appearance: 'dark',
