@@ -3,11 +3,11 @@ const nav = require('./nav')
 const t = require('./t')
 var moment = require('moment')
 var taskLists = require('markdown-it-task-lists');
-import { defineConfig } from 'vitepress'
+// import { defineConfig } from 'vitepress'
 import { MermaidMarkdown } from './theme/mermaid-markdown'
 import mathMarkdown from 'markdown-it-mathjax3'
 
-export default defineConfig({
+export default {
   title: 'sntflyv 的技术博客',
   description: 'thinking，技术分析，日常总结，杂七杂八',
   base: '/',
@@ -69,4 +69,4 @@ export default defineConfig({
     __dirname + '/sidebar.js',
     __dirname + '/nav.js',
   ],
-})
+}
