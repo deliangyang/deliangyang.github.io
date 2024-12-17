@@ -259,7 +259,7 @@ llvm-objdump --disassemble --reloc \
 
 object dump 如下：
 
-```s
+```c
 llvm-objdump --disassemble --reloc /tmp/_BINARY_OP.o
 
 /tmp/_BINARY_OP.o:	file format elf64-x86-64
