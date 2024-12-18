@@ -1,11 +1,16 @@
 <template>
-    <Layout>
-      <template #doc-after>
-        <div v-if="initGitalkStep" id="gitalk-container"></div>
-      </template>
-    </Layout>
-  </template>
-  
+  <Layout>
+    <template #doc-after>
+      <div v-if="initGitalkStep" id="gitalk-container"></div>
+    </template>
+  </Layout>
+</template>
+
+<style>
+#gitalk-container textarea {
+  color: #333;
+}
+</style>
   <script lang="ts" setup>
   import { useRoute } from 'vitepress'
   import Theme from 'vitepress/theme'
