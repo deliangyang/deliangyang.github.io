@@ -44,7 +44,7 @@ function dump($catalog, $level = 0)
             ksort($v);
             dump($v, $level + 1);
             if ($level == 0) {
-                echo '---' . PHP_EOL;
+                echo PHP_EOL . '---' . PHP_EOL . PHP_EOL;
             }
         } else {
             $k = basename($v, '.md');

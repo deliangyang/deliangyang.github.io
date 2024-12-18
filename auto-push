@@ -8,6 +8,8 @@ else
     exit 1
 fi
 
+autocorrect --fix docs/t/index.md
+
 git add *
 git add .gitignore
 git commit -m "docs: add post `date "+%Y-%m-%d"`"
