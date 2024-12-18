@@ -3,6 +3,7 @@
 /docs/.vuepress/dist/
 /docs/.vitepress/dist/
 /docs/.vitepress/sidebar.js
+/docs/.vitepress/cache/
 /test.php
 docs/读后感/2024/hi.md
 /.vscode/
