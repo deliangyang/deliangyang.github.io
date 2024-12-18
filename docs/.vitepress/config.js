@@ -10,7 +10,7 @@ import timeline from "vitepress-markdown-timeline";
 
 export default {
   title: 'sntflyv 的技术博客',
-  description: 'thinking，技术分析，日常总结，杂七杂八',
+  description: 'thinking、技术分析、Technology Analysis、JIT、python、rust、golang、php、Interpreter、Compiler、ebpf、network protocol、linux、kernel、system、database、Writing',
   base: '/',
   lastUpdated: true,
   sitemap: {
@@ -35,7 +35,10 @@ export default {
   ],
   appearance: 'dark',
   themeConfig: {
-    search: true,
+    search: {
+      placeholder: 'Search',
+      provider: 'local',
+    },
     searchMaxSuggestions: 10,
     editLink: {
       pattern: "https://github.com/deliangyang/sntflyv.github.io/edit/master/docs/:path",
