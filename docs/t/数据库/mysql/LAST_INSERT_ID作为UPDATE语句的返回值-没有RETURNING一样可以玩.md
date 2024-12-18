@@ -1,4 +1,4 @@
-# 背景
+# 揭秘 MySQL LAST_INSERT_ID() 的隐藏用法：不仅仅是自增 ID！
 
 如果你只知道 [LAST_INSERT_ID()](https://dev.mysql.com/doc/refman/8.4/en/information-functions.html#function_last-insert-id) 函数只能返回最后一条插入的自增 ID，那么你的知识库就该更新了。
 
