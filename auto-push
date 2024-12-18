@@ -1,4 +1,13 @@
 #!/usr/bin/env bash
+php bin/archive.php > docs/t/index.md
+
+if [ $? -eq 0 ]; then
+    echo "Archive success"
+else
+    echo "Archive failed"
+    exit 1
+fi
+
 git add *
 git add .gitignore
 git commit -m "docs: add post `date "+%Y-%m-%d"`"

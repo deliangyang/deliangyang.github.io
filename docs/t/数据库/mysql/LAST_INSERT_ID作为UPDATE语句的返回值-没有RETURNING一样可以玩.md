@@ -1,8 +1,12 @@
+# 背景
+
 如果你只知道 [LAST_INSERT_ID()](https://dev.mysql.com/doc/refman/8.4/en/information-functions.html#function_last-insert-id) 函数只能返回最后一条插入的自增 ID，那么你的知识库就该更新了。
 
 LAST_INSERT_ID() 有两种用法，一种是不带参数，一种是带参数。不带参数时，返回最后一次插入操作生成的自增 ID，带参数时，返回指定的参数结果或者表达式的值。  
 
-### 不带参数
+# 验证
+
+## 不带参数
 
 > With no argument, LAST_INSERT_ID() returns a BIGINT UNSIGNED (64-bit) value representing the first automatically generated value successfully inserted for an AUTO_INCREMENT column as a result of the most recently executed INSERT statement. The value of LAST_INSERT_ID() remains unchanged if no rows are successfully inserted. 
 
@@ -13,7 +17,7 @@ insert into t (`id`) values (1);
 select LAST_INSERT_ID(); -- 1
 ```
 
-### 带参数
+## 带参数
 
 > With an argument, LAST_INSERT_ID() returns an unsigned integer, or NULL if the argument is NULL. 
 
@@ -24,7 +28,7 @@ select LAST_INSERT_ID(2);
 select LAST_INSERT_ID(); -- 2
 ```
 
-### 带参数，参数为表达式
+## 带参数，参数为表达式
 
 > If expr is given as an argument to LAST_INSERT_ID(), the value of the argument is returned by the function and is remembered as the next value to be returned by LAST_INSERT_ID(). This can be used to simulate sequences:
 >  
@@ -52,7 +56,7 @@ select LAST_INSERT_ID(); -- 1
 1. update 时返回计数器增加后的值
 2. insert 时返回计数器增加后的值
 
-### 验证并发场景下 LAST_INSERT_ID() 的行为
+## 验证并发场景下 LAST_INSERT_ID() 的行为
 
 创建一个表 `test`，并插入一条 id 为 1 的数据
 
@@ -164,7 +168,7 @@ go run main.go -command insert | sort -n | uniq -c | awk '{print $2}' | awk '$1!
 go run main.go -command update | sort -n | uniq -c | awk '{print $2}' | awk '$1!=last+1{print last, $1}{last=$1}' | wc -l
 ```
 
-### 总结
+# 总结
 
 LAST_INSERT_ID() 有两种用法，一种是不带参数，一种是带参数。不带参数时，返回最后一次插入操作生成的自增 ID，带参数时，返回指定的参数结果或者表达式的值。带参数时，LAST_INSERT_ID() 会记住参数的值，下次调用 LAST_INSERT_ID() 时，返回的值就是这个参数的值。这样就可以模拟序列了。
 
