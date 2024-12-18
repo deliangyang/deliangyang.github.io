@@ -32,8 +32,8 @@ export default {
       gtag('config', 'G-VFFHZVDPEW');`
     ]
   ],
+  appearance: 'dark',
   themeConfig: {
-    appearance: 'dark',
     search: true,
     searchMaxSuggestions: 10,
     editLink: {

@@ -43,9 +43,9 @@ function dump($catalog, $level = 0)
             }
             ksort($v);
             dump($v, $level + 1);
-            if ($level == 0) {
-                echo PHP_EOL . '---' . PHP_EOL . PHP_EOL;
-            }
+            // if ($level == 0) {
+            //     echo PHP_EOL . '---' . PHP_EOL . PHP_EOL;
+            // }
         } else {
             $k = basename($v, '.md');
             $v = '/t/' . $v;
@@ -55,7 +55,7 @@ function dump($catalog, $level = 0)
             $createTime = `git log --pretty=format:"%cd" --date=format:'%Y-%m-%d' -1 -- "$fn"`;
             $v = str_replace(' ', '%20', $v);
             // $v = str_replace('.md', '.html', $v);
-            echo str_repeat('  ', $level-1) . "- [$k]($v) [$createTime]\n";
+            echo str_repeat('  ', $level-1) . "- [$k]($v) &nbsp;&nbsp;&nbsp;<i style=\"font-size:14px;color:#999\">[<datetime>$createTime</datetime>]</i>\n";
         }
     }
 }
