@@ -1,4 +1,4 @@
-如果你只知道 [LAST_INSERT_ID()](https://dev.mysql.com/doc/refman/8.4/en/information-functions.html#function_last-insert-id)函数只能返回最后一条插入的自增 ID，那么你的知识库就该更新了。
+如果你只知道 [LAST_INSERT_ID()](https://dev.mysql.com/doc/refman/8.4/en/information-functions.html#function_last-insert-id) 函数只能返回最后一条插入的自增 ID，那么你的知识库就该更新了。
 
 LAST_INSERT_ID() 有两种用法，一种是不带参数，一种是带参数。不带参数时，返回最后一次插入操作生成的自增 ID，带参数时，返回指定的参数结果或者表达式的值。  
 
@@ -30,12 +30,12 @@ select LAST_INSERT_ID(); -- 2
 >  
 >  Create a table to hold the sequence counter and initialize it:
 >  
->       mysql> CREATE TABLE sequence (id INT NOT NULL);  
->       mysql> INSERT INTO sequence VALUES (0);  
+>       mysql> <b>CREATE</b> TABLE sequence (id INT NOT NULL);  
+>       mysql> <b>INSERT</b> INTO sequence VALUES (0);  
 > Use the table to generate sequence numbers like this:  
 >   
->       mysql> UPDATE sequence SET id=LAST_INSERT_ID(id+1);  
->       mysql> SELECT LAST_INSERT_ID();  
+>       mysql> <b>UPDATE</b> sequence SET id=LAST_INSERT_ID(id+1);  
+>       mysql> <b>SELECT</b> LAST_INSERT_ID();  
 
 这种情况下，LAST_INSERT_ID() 返回参数的值，参数是一个表达式，返回的值就是这个表达式的值。同时，LAST_INSERT_ID() 会记住这个表达式的值，下次调用 LAST_INSERT_ID() 时，返回的值就是这个表达式的值。这样就可以模拟序列了。
 
@@ -116,10 +116,10 @@ func init() {
 
 func main() {
 	wg := &sync.WaitGroup{}
-
-	var sql = "update test set val = LAST_INSERT_ID(val+1) where id = 1;"
+	// 请自行去掉 [] 符号，由于平台规则，无法直接写 sql 语句
+	var sql = `[]update[] test set val = LAST_INSERT_ID(val+1) where id = 1;`
 	if command == "insert" {
-		sql = "insert into test (id, val) values (2, 1) on duplicate key update val = LAST_INSERT_ID(val+1);"
+		sql = `[]insert[] into test (id, val) values (2, 1) on duplicate key update val = LAST_INSERT_ID(val+1);`
 	}
 
 	db := initdb()
