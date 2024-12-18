@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-php bin/archive.php > docs/t/index.md
+php bin/archive.php
 
 if [ $? -eq 0 ]; then
     echo "Archive success"
@@ -9,6 +9,7 @@ else
 fi
 
 autocorrect --fix docs/t/index.md
+autocorrect --fix docs/daily.md
 
 git add *
 git add .gitignore

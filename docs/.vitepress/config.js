@@ -6,6 +6,7 @@ var taskLists = require('markdown-it-task-lists');
 // import { defineConfig } from 'vitepress'
 import { MermaidMarkdown } from './theme/mermaid-markdown'
 import mathMarkdown from 'markdown-it-mathjax3'
+import timeline from "vitepress-markdown-timeline";
 
 export default {
   title: 'sntflyv 的技术博客',
@@ -47,7 +48,13 @@ export default {
     docsBranch: 'master',
     editLinks: true,
     editLinkText: 'Edit this page on GitLab',
-    nav: nav,
+    nav: [
+      ...nav,
+      {
+        text: 'Timeline',
+        link: '/daily'
+      }
+    ],
     sidebar: sidebar,
   },
   plugins: [
@@ -75,6 +82,7 @@ export default {
     config: md => {
       // md.use(require('markdown-it-mermaid'))
       md.use(MermaidMarkdown).use(taskLists).use(mathMarkdown)
+      md.use(timeline);
     }
   },
   extraWatchFiles: [
