@@ -1,0 +1,5 @@
+{
+  "keywords": ["C++", "C", "Python", "扩展", "字典遍历", "PyMapping_Items", "PyArg_ParseTuple", "PyDict_New", "PyDict_SetItemString", "Py_BuildValue", "Python扩展模块", "字典", "遍历", "键值对", "底层开发", "PyObject", "Py_DECREF", "PySequence_GetItem", "PyMapping_Length"],
+  "description": "本文介绍了如何在 C/C++ 扩展中实现 Python 字典的遍历，包括使用 PyMapping_Items 获取字典项、PyArg_ParseTuple 解析元组以及 PyDict_New 和 PyDict_SetItemString 创建和填充字典。文章包含代码示例和详细注释，并演示了如何处理错误和不同数据类型。",
+  "title": "在 C/C++ 中高效遍历 Python 字典"
+}

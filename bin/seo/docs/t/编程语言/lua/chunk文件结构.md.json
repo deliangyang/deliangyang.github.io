@@ -1,0 +1,5 @@
+{
+  "keywords": ["Lua", "chunk", "file structure", "header", "prototype", "bytecodes", "constants", "upvalues", "debug info", "sub functions", "Lua header", "LUAC_VERSION", "LUAC_FORMAT", "LUAC_DATA", "luaU_dump", "DumpHeader", "DumpFunction", "DumpByte", "DumpInteger", "DumpNumber", "DumpString", "DumpCode", "DumpConstants", "DumpUpvalues", "DumpProtos", "DumpDebug", "hexdump", "precompiled code", "Lua signature", "size_t", "Instruction", "lua_Integer", "lua_Number"],
+  "description": "This document details the structure of a Lua chunk file, including the header, prototype (with bytecodes, constants, upvalues, debug info, and sub-functions), and provides code examples illustrating the dumping of Lua functions as precompiled chunks.  It covers Lua header elements like the signature, version, format, and data used for error detection.",
+  "title": "Understanding Lua Chunk File Structure and Precompiled Code"
+}

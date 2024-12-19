@@ -1,0 +1,5 @@
+{
+  "keywords": ["GMP 模型", "Goroutine", "M (Machine)", "P (Processor)", "Go 协程", "并发编程", "内核线程", "工作线程", "Go 运行时", "Go 并发模型"],
+  "description": "深入了解 Go 语言的 GMP 模型：M (Machine) 为内核线程，P (Processor) 管理 Goroutine 的执行上下文，Goroutine 则是并发执行代码的封装。本文详细解释了它们之间的关系和协同工作方式，帮助您理解 Go 并发机制的核心概念。",
+  "title": "Go 语言 GMP 模型详解：M、P、Goroutine 之间的协作机制"
+}

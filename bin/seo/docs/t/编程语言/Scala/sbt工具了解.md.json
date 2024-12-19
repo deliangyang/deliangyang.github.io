@@ -1,0 +1,5 @@
+{
+  "keywords": ["sbt", "Scala", "构建工具", "build.sbt", "依赖管理", "+= ", "%", "%%", "compile", "test", "run", "package", "clean", "console", "reload", "scalaVersion", "libraryDependencies", "构建文件", "目录结构", "常用命令"],
+  "description": "深入学习sbt Scala构建工具，涵盖sbt构建文件配置、依赖管理(+=, %, %%)、常用命令(clean, compile, test, run, package, console, reload)以及目录结构详解。提升你的Scala项目构建效率。",
+  "title": "sbt Scala构建工具详解：配置、依赖、命令及最佳实践"
+}

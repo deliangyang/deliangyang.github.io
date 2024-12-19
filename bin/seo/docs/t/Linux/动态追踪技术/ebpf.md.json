@@ -1,0 +1,5 @@
+{
+  "keywords": ["eBPF", "BPF", "bcc", "USDT", "kprobes", "kretprobes", "uprobes", "uretprobes", "DWARF", "内核探针", "用户空间探针", "系统调用", "性能监控", "调试", "tracing", "bpftrace", "aya", "ELF"],
+  "description": "本文介绍了BPF和eBPF的区别、bcc工具集、USDT探针、内核探针(kprobes, kretprobes)、用户空间探针(uprobes, uretprobes)、DWARF调试信息格式以及eBPF在Rust中的应用(aya)。包含了代码示例和工具使用说明，帮助读者理解和应用eBPF技术进行系统追踪和性能分析。",
+  "title": "eBPF 技术详解：从原理到实践，涵盖bcc、USDT、内核及用户空间探针"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "AST", "语法树优化", "代码优化", "前端优化", "后端优化", "PyAST_Optimize", "astfold_mod", "astfold_body", "astfold_stmt", "astfold_expr", "fold_binop", "字节码", "编译优化", "Python 优化", "性能优化", "递归", "常量折叠", "代码执行效率"],
+  "description": "本文深入探讨了 Python 的 AST (抽象语法树) 优化机制，详细分析了 `PyAST_Optimize` 函数及其核心子函数 `astfold_mod`、`astfold_body`、`astfold_stmt`、`astfold_expr` 和 `fold_binop` 的实现原理。这些函数通过递归地折叠语法树中的常量表达式和冗余节点，减少代码执行指令，从而提升 Python 代码的执行效率。文章并以 `dis` 模块为例验证了优化效果，展示了优化前后字节码的差异。",
+  "title": "Python AST 语法树优化详解：提升代码执行效率的秘密"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["ClickHouse", "物化视图", "Materialized View", "Kafka", "Kafka引擎", "MergeTree", "AggregatingMergeTree", "数据聚合", "数据查询", "sumMerge", "性能优化", "实时数据处理", "JSONEachRow", "AggregateFunction", "error日志"],
+  "description": "本文介绍如何使用 ClickHouse 的 Kafka 引擎构建物化视图，实现对 Kafka 数据的实时处理和聚合。文章涵盖了表结构创建、物化视图构建、聚合查询以及日志查看等方面，并提供了具体的 SQL 代码示例和注意事项，帮助读者快速上手 ClickHouse 的数据处理流程。",
+  "title": "ClickHouse 实时数据处理：基于 Kafka 引擎的物化视图构建与优化"
+}

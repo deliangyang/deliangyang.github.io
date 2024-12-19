@@ -1,0 +1,5 @@
+{
+  "keywords": ["Lua", "Lua内存管理", "GCObject", "TString", "userdata", "Upvaldesc", "LocVar", "Function Prototypes", "Proto", "Closures", "CClosure", "LClosure", "Tables", "Table", "内存结构", "数据结构", "C语言", "Lua虚拟机"],
+  "description": "本文档描述了Lua虚拟机中各种核心数据结构的C语言实现细节，包括GCObject, TString, userdata, Upvaldesc, LocVar, Proto, Closures, 和Table等，并详细解释了每个结构体的成员变量及其作用。",
+  "title": "Lua虚拟机核心数据结构详解"
+}

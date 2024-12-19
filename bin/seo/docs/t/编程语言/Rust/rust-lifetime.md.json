@@ -1,0 +1,5 @@
+{
+  "keywords": ["Rust", "lifetime", "生命周期", "borrow checker", "借用检查器", "dangling reference", "悬空引用", "引用", "作用域", "函数生命周期", "结构体生命周期", "生命周期省略", "lifetime elision rules"],
+  "description": "深入讲解 Rust 生命周期 (lifetime) 的概念，包括借用检查器 (borrow checker) 如何工作，如何在函数和结构体中声明和使用生命周期，以及生命周期省略规则 (lifetime elision rules) 的详解，并解释悬空引用 (dangling reference) 的问题。",
+  "title": "Rust 生命周期详解：借用检查器、生命周期注解及省略规则"
+}

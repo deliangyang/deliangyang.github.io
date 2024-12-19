@@ -1,0 +1,5 @@
+{
+  "keywords": ["Lua", "lexer", "token", "词法单元", "llex.h", "llex.c", "reserved words", "operator", "identifier", "number", "string", "枚举", "C语言"],
+  "description": "本文分析了 Lua 语言词法分析器中 token 的定义，解释了 `llex.h` 和 `llex.c` 文件中 `RESERVED` 枚举和 `luaX_tokens` 数组的对应关系，涵盖关键词、操作符、标识符、数字、字符串等词法单元类型。",
+  "title": "Lua 词法分析器：token 的定义与实现"
+}

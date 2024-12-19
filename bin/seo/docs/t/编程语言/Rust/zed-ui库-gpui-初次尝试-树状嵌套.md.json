@@ -1,0 +1,5 @@
+{
+  "keywords": ["gpui", "Zed", "Rust", "UI framework", "GUI", "desktop application", "cross-platform", "open source", "tailwindcss", "components", "gpui-component", "rendering", "high-performance", "AI collaboration", "Cargo", "Hello World", "animation", "SVG", "image", "text input", "menus", "window"],
+  "description": "gpui is a high-performance UI framework written in Rust, created by the developers of the Zed code editor.  It's designed for building fast and productive desktop applications, offering a CSS-like styling API inspired by Tailwind CSS.  This framework is open-source and includes examples like a Hello World application, showcasing its ease of use and capabilities for building complex UIs with animation, SVG support, and more.  A companion component library, gpui-component, further expands its functionality.",
+  "title": "gpui: A High-Performance Rust UI Framework from the Creators of Zed"
+}

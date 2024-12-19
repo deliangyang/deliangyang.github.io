@@ -1,0 +1,5 @@
+{
+  "keywords": ["BPF", "BPF maps", "eBPF", "map types", "BPF_MAP_TYPE_ARRAY", "BPF_MAP_TYPE_HASH", "BPF_MAP_TYPE_LRU_HASH", "BPF_MAP_TYPE_STACK", "BPF_MAP_TYPE_SOCKMAP", "bpf_map_lookup_elem", "bpf_map_update_elem", "bpf_map_delete_elem", "bpf_map_get_next_key", "map traversal", "libbpf", "C", "kernel"],
+  "description": "This document details various BPF map types (e.g., BPF_MAP_TYPE_ARRAY, BPF_MAP_TYPE_HASH, BPF_MAP_TYPE_LRU_HASH, etc.), demonstrates how to define and use them in C code, including functions like bpf_map_lookup_elem, bpf_map_update_elem, and bpf_map_get_next_key for map manipulation and traversal.  It also provides examples of creating maps and iterating through their elements.",
+  "title": "Understanding and Utilizing BPF Maps in eBPF Programming"
+}

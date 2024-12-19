@@ -1,0 +1,5 @@
+{
+  "keywords": ["Flink", "窗口函数", "Window Function", "滚动窗口", "滑动窗口", "会话窗口", "时间窗口", "基于时间", "基于数量", "ReduceFunction", "AggregateFunction", "ProcessWindowFunction", "Trigger", "触发器", "Evictor", "清除器", "窗口处理函数", "数据处理", "流处理"],
+  "description": "深入理解 Apache Flink 窗口函数，包括滚动窗口、滑动窗口、会话窗口等三种窗口类型，以及 ReduceFunction、AggregateFunction、ProcessWindowFunction 等窗口处理函数，并讲解 Trigger 和 Evictor 的作用。",
+  "title": "Apache Flink 窗口函数详解：类型、函数及触发器"
+}

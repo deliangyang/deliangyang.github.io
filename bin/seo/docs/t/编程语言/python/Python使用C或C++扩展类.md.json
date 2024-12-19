@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "C++", "扩展模块", "类模块", "引用计数", "内存泄露", "PyObject_HEAD", "PyTypeObject", "PyModuleDef", "setup.py", "structmember.h", "成员属性", "成员方法", "构造函数", "析构函数", "PyMemberDef", "PyMethodDef", "METH_NOARGS", "PyArg_ParseTupleAndKeywords", "Py_INCREF", "Py_DECREF", "Py_XDECREF", "offsetof", "T_OBJECT_EX", "T_INT"],
+  "description": "本文详细介绍了如何使用 C/C++ 扩展 Python 类模块，包括编写构造函数、析构函数、成员属性和方法，以及内存管理和引用计数规则。文章包含流程图和代码示例，帮助读者逐步掌握 Python 扩展模块开发的完整流程，并深入理解成员属性和方法的注册绑定。",
+  "title": "Python C/C++ 扩展类模块开发详解：从入门到成员属性方法绑定"
+}

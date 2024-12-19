@@ -1,0 +1,5 @@
+{
+  "keywords": ["MySQL", "LAST_INSERT_ID()", "自增ID", "序列", "并发", "数据库", "SQL", "函数", "用法", "隐藏用法", "AUTO_INCREMENT"],
+  "description": "深入探讨 MySQL LAST_INSERT_ID() 函数的两种用法：无参数返回最后插入的自增 ID，带参数可返回指定值并模拟序列。文章还分析了其在并发场景下的行为，并通过 Go 代码示例验证其可靠性，揭示其在计数器管理中的应用。",
+  "title": "MySQL LAST_INSERT_ID() 函数深度解析：不仅仅是自增 ID，还能模拟序列！"
+}

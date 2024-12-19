@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "C++", "回调函数", "PyObject", "PyArg_ParseTuple", "PyObject_CallObject", "Py_BuildValue", "模块扩展", "传参", "callback", "Python扩展", "C扩展"],
+  "description": "本文介绍了如何在 C/C++ 中扩展 Python 模块，并实现 Python 回调函数，包括无参数和有参数的回调函数，以及如何使用 `PyArg_ParseTuple`、`PyObject_CallObject` 和 `Py_BuildValue` 等函数进行参数传递和处理。文章包含详细的代码示例、编译构建步骤和测试结果，并提供了完整的 Python 和 C++ 代码。",
+  "title": "Python 模块扩展之回调函数传参详解及示例"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["logstash", "clickhouse", "插件", "安装", "output", "手动编译", "离线安装", "http", "JSONEachRow", "ruby", "gem", "logstash-output-clickhouse", "kafka", "配置", "demo"],
+  "description": "本文介绍了如何为 Logstash 安装 ClickHouse 插件，包括手动编译安装、离线包安装以及详细的配置示例（包含 Kafka input 和 ClickHouse output）。  解决国内源安装问题，并提供完整的 Logstash 配置文件供参考。",
+  "title": "Logstash ClickHouse 插件安装详解及配置示例"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["sqlite3", "database", "file format", "reverse engineering", "hexdump", "database structure", "schema", "table", "SQL", "sqlite3 file structure", "逆向分析"],
+  "description": "本文分析了 SQLite3 数据库文件的内部结构，通过初始化数据、dump 文件以及 hexdump 命令，详细解读了 SQLite3 数据库文件的组成，并结合示例代码和参考资料，深入浅出地讲解了 SQLite3 数据库文件的逆向分析方法。",
+  "title": "SQLite3数据库文件结构逆向分析详解"
+}

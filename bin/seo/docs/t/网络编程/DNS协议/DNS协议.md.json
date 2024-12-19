@@ -1,0 +1,5 @@
+{
+  "keywords": ["DNS", "DNS协议", "DNS查询", "Wireshark", "抓包", "域名解析", "数据包分析", "二进制dump", "A记录", "CNAME记录", "IP地址", "端口53", "dig命令"],
+  "description": "本文详解DNS协议，通过Wireshark抓包分析DNS查询和应答过程，深入探讨DNS数据包的二进制结构和可视化数据结构，包含A记录和CNAME记录的解析示例。",
+  "title": "DNS协议详解：Wireshark抓包分析及数据结构解读"
+}

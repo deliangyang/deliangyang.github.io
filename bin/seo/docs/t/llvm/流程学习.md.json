@@ -1,0 +1,5 @@
+{
+  "keywords": ["LLVM", "LLVM tutorial", "LLVM documentation", "LLVM APIs", "LLVM programming", "Compiler", "Low-level virtual machine", "Programmers manual", "C++", "Data structures", "Multithreading", "Module", "Value", "Instruction", "Function", "GlobalVariable", "BasicBlock", "Debug", "Error handling", "String manipulation"],
+  "description": "Learn LLVM through official tutorials and documentation.  This guide covers LLVM APIs, including string handling, error handling, data structures, multithreading, and core objects like Module, Value, Function, and BasicBlock.  Explore the LLVM programmer's manual and a project scaffolding example.",
+  "title": "LLVM学习指南：教程、API及开发项目脚手架"
+}

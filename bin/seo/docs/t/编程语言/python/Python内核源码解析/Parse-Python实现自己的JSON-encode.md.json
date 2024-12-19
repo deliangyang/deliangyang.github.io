@@ -1,0 +1,5 @@
+{
+  "keywords": ["JSON", "JSON encode", "JSON encoder", "Python", "JSON encoding", "Python JSON encoder", "recursive encoding", "data serialization", "JSON parser", "Python tutorial"],
+  "description": "This article implements a JSON encoder in Python, converting Python objects (None, bool, int, float, str, list, dict) into JSON strings using recursive encoding for lists and dictionaries.  Includes a complete code example and test cases.",
+  "title": "Python JSON Encoder Implementation: A Recursive Approach"
+}

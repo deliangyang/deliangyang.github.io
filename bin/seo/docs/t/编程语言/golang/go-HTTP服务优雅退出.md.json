@@ -1,0 +1,5 @@
+{
+  "keywords": ["Go", "Golang", "优雅退出", "graceful shutdown", "http.Server.Shutdown", "context.WithTimeout", "信号处理", "syscall.SIGINT", "syscall.SIGTERM", "并发编程", "goroutine", "channel", "生产者消费者", "程序退出", "数据完整性"],
+  "description": "本文介绍了 Go 语言中 HTTP 服务和生产者消费者模式的优雅退出方法，讲解如何使用 context.WithTimeout 和信号处理机制确保程序在中断时能够安全地关闭，避免数据丢失和资源泄漏。文章包含代码示例和详细解释，帮助读者理解优雅退出的重要性和实现方式。",
+  "title": "Go 语言优雅退出：HTTP 服务及生产者消费者模式实践"
+}

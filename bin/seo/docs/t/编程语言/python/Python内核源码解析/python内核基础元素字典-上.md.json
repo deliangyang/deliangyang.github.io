@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "字典", "数据结构", "哈希表", "hash table", "Python字典实现", "源码分析", "C语言", "开放寻址法", "hash碰撞", "冲突解决", "扩容", "遍历", "PyDict_New", "PyDict_GetItem", "PyDict_SetItem", "PyDict_DelItem", "PyDict_Clear", "PyDict_Next", "时间复杂度 O(1)", "字典优化"],
+  "description": "本文从 Python 内核角度分析字典的实现原理，深入探讨字典的数据结构、创建、查找、插入、删除、扩容、遍历、清空等操作，以及 hash 碰撞的解决方法。内容涵盖 C 语言源码解读，适合对 Python 底层实现感兴趣的读者。",
+  "title": "Python 字典实现原理深度解析：从 C 语言源码看哈希表"
+}

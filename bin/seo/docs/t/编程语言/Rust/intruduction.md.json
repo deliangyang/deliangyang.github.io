@@ -1,0 +1,5 @@
+{
+  "keywords": ["Rust", "Rust-lang", "Rust入门", "Rust教程", "Rust安装", "Cargo", "Rustc", "HelloWorld", "官方文档", "编程语言", "高性能", "可靠性", "内存安全", "线程安全", "IDE", "IntelliJ", "rustup", "println!", "宏", "package manager"],
+  "description": "学习 Rust 编程语言的完整指南，从安装 Rust 和设置开发环境开始，通过官方文档学习，并构建第一个“Hello World”程序，涵盖 Cargo 包管理工具的使用、Rustc 编译器的应用以及宏的简要介绍。",
+  "title": "Rust 语言入门：从官方文档到 Hello World"
+}

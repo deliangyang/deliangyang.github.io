@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "字节码优化", "窥孔优化", "Peephole Optimization", "bytecode optimization", "编译优化", "Python 字节码", "UNARY_NOT", "POP_JUMP_IF_FALSE", "POP_JUMP_IF_TRUE", "AST", "抽象语法树", "指令优化", "代码优化", "效率提升"],
+  "description": "本文深入探讨Python字节码优化中的核心技术——窥孔优化（Peephole Optimization）。通过分析Python编译过程中的不同阶段，包括抽象语法树(AST)和字节码，以及具体的代码示例和测试用例，详细解释了窥孔优化的原理、常用技术以及如何验证其优化效果。文章还阐述了如何将复杂的优化问题分解为更小的子问题，逐步推测并验证优化过程中的逻辑。",
+  "title": "Python 字节码优化：窥孔优化技术详解及案例分析"
+}

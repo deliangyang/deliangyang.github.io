@@ -1,0 +1,5 @@
+{
+  "keywords": ["Rust", "unsafe Rust", "unsafe", "裸指针", "raw pointer", "*mut T", "*const T", "内存安全", "借用规则", "静态变量", "不安全函数", "超级力量",  "解引用", "指针", "内存管理"],
+  "description": "深入探讨 Rust 中的 unsafe 代码块，解释其必要性、超级力量（解引用裸指针、调用不安全函数、访问可变静态变量等）以及风险。学习如何安全地使用 unsafe Rust 并理解其与安全 Rust 代码的区别。",
+  "title": "Rust Unsafe 代码详解：超级力量与风险并存"
+}

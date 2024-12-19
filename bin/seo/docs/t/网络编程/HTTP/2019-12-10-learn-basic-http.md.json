@@ -1,0 +1,5 @@
+{
+  "keywords": ["HTTP", "HTTP协议", "HTTP报文", "请求行", "请求头部", "响应体", "状态码", "HTTP缓存", "Cache-Control", "缓存策略", "max-age", "must-revalidate", "no-cache", "no-store", "CDN", "Private Cache", "Public Cache", "HTTP/1.1", "HTTP/2.0"],
+  "description": "本文详细介绍了HTTP协议的报文结构，包括请求行、请求头部、响应体等组成部分，以及HTTP缓存策略，例如Private Cache、Public Cache、Cache-control、缓存过期机制和缓存验证等内容，并提供了HTTP状态码的分类说明。",
+  "title": "深入理解HTTP协议及缓存策略"
+}

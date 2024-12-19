@@ -1,0 +1,5 @@
+{
+  "keywords": ["Lua", "VM", "OpCode", "bytecode", "virtual machine", "instruction set", "OP_MOVE", "OP_LOADK", "OP_CALL", "OP_RETURN", "Lua虚拟机", "Lua指令集", "Lua字节码"],
+  "description": "Lua虚拟机指令集详解，包含47个指令的名称、参数和描述，例如OP_MOVE, OP_LOADK, OP_CALL等，用于理解Lua虚拟机的执行机制。",
+  "title": "Lua虚拟机OpCode指令集详解 (47个指令)"
+}

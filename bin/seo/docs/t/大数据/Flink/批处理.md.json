@@ -1,0 +1,1 @@
+Please provide the article you want me to analyze. I need the text of the article to extract keywords, write a description, and suggest a title for SEO optimization.  Once you provide the article, I will return a JSON object in the format you requested: `{keywords: [], description: , title: }`.

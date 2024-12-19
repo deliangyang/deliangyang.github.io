@@ -1,0 +1,5 @@
+{
+  "keywords": ["SSH", "端口转发", "内网穿透", "远程访问", "本地访问", "SSH隧道", "port forwarding", "reverse port forwarding", "GatewayPorts", "sshd_config", "redis", "mysql", "-L", "-N", "-f", "-R"],
+  "description": "本文介绍了两种通过SSH实现远程访问本地服务的方案：端口转发和内网穿透。端口转发用于本地访问远程服务器的特定端口，内网穿透则允许外部网络访问内部服务。文章提供了Bash脚本和详细的SSH参数解释，以及sshd_config的修改方法，方便读者快速上手。",
+  "title": "利用SSH实现端口转发和内网穿透，本地访问远程服务器"
+}

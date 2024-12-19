@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python 3.13", "Python", "JIT compiler", "free threading", "multithreading", "performance", "CPython", "GIL", "Global Interpreter Lock", "performance improvements", "software development", "programming language", "preview", "new features"],
+  "description": "Python 3.13 introduces significant performance enhancements with the preview of free threading and a JIT compiler. Learn about these groundbreaking changes, how they impact the Global Interpreter Lock (GIL), and what this means for Python's future.",
+  "title": "Python 3.13: Revolutionizing Performance with Free Threading and a JIT Compiler"
+}

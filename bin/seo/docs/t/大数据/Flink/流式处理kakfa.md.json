@@ -1,0 +1,5 @@
+{
+  "keywords": ["Kafka", "流式处理", "Golang", "Flink", "数据聚合", "Kafka消费者", "Kafka生产者", "JSON", "窗口函数", "实时数据处理", "大数据"],
+  "description": "本文演示了如何使用 Golang 生成测试数据并写入 Kafka，以及如何使用 Flink 从 Kafka 读取数据并进行数据聚合。代码示例涵盖了 Kafka 生产者、消费者和 Flink 的数据处理流程，并解释了如何使用 JSON 格式的数据。",
+  "title": "使用Golang和Flink进行Kafka流式数据处理及聚合"
+}

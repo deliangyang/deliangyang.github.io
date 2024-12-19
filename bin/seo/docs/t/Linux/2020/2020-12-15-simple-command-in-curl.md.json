@@ -1,0 +1,5 @@
+{
+  "keywords": ["curl", "命令行", "参数", "HTTP", "cookie", "-c", "-b", "-d", "-s", "-H", "-F", "-o", "POST", "GET", "文件上传", "cookie.jar", "verbose", "静默模式", "请求头", "调试模式", "http_code", "网络协议"],
+  "description": "本文介绍了curl命令行工具处理HTTP协议的一些常用参数，包括-c(写入cookie), -b(加载cookie), -d(POST数据), -s(静默模式), -H(请求头), -F(文件上传), -o(保存结果到文件)等，并结合代码示例详细讲解了每个参数的用法和作用。",
+  "title": "Curl命令行常用参数详解及示例"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["Abstract Syntax Tree", "AST", "Compiler Design", "Parser", "Interpreter", "Tree Structure", "Source Code", "Code Analysis", "Program Analysis", "Syntax Tree", "Data Structure", "Software Engineering", "Programming Languages"],
+  "description": "Learn about Abstract Syntax Trees (ASTs), a fundamental data structure in compiler design and programming language processing.  Understand how ASTs represent the syntactic structure of source code, enabling code analysis, interpretation, and transformation.",
+  "title": "Abstract Syntax Trees (ASTs): A Comprehensive Guide"
+}

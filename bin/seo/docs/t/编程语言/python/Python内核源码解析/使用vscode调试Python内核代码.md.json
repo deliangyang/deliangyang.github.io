@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "调试", "debug", "源码", "编译", "VS Code", "断点调试", "内核", "Py_DEBUG", "trace-refs", "gdb", "launch.json", "python3.10d"],
+  "description": "本文介绍如何编译带调试信息的 Python 源码 (Python 3.10.7)，如何在 VS Code 中配置 Python 断点调试环境，以及如何使用断点调试来学习 Python 内核代码，并解释了为什么要采用这种学习方法。",
+  "title": "VS Code 断点调试 Python 内核代码详解"
+}

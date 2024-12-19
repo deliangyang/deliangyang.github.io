@@ -1,0 +1,5 @@
+{
+  "keywords": ["ICMP", "互联网控制报文协议", "ping", "TCP/IP", "网络连接状态", "数据包", "Wireshark", "IPv4", "MAC地址", "Echo request", "Echo reply"],
+  "description": "ICMP (互联网控制报文协议)是TCP/IP协议簇的子协议，用于检测网络连接状态。本文通过ping命令发送和接收ICMP数据包，分析数据包结构，包括数据包类型、源地址、目的地址、ID、序列号等信息，并解释了Echo请求和Echo应答的过程。",
+  "title": "ICMP协议详解：ping命令及数据包分析"
+}

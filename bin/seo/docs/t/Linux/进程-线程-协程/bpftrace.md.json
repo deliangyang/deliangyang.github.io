@@ -1,0 +1,5 @@
+{
+  "keywords": ["bpftrace", "eBPF", "kernel", "tracing", "tool", "performance analysis", "iovisor"],
+  "description": "bpftrace 是一个基于 eBPF 内核虚拟机 (VM) 的强大的追踪工具，用于性能分析和调试。它允许用户使用类似于 awk 的语法编写追踪程序，高效地收集内核和用户空间的运行时信息。",
+  "title": "bpftrace: 基于 eBPF 的高效内核追踪工具"
+}

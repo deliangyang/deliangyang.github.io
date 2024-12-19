@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "Python 3.14.0a2", "JIT", "Just-In-Time Compilation", "clang-19", "LLVM", "Linux", "Ubuntu", "docker", "docker-compose", "源码编译", "编译安装", "apt", "源码构建"],
+  "description": "本文记录了在Linux Ubuntu系统上编译Python 3.14.0a2源码，并启用实验性JIT编译的过程。文章详细介绍了遇到的问题，包括clang-19的安装难题以及最终使用Docker容器成功编译的方法，并提供了完整的命令和配置示例。",
+  "title": "在Ubuntu上编译Python 3.14.0a2并启用JIT (使用Docker解决clang-19安装问题)"
+}

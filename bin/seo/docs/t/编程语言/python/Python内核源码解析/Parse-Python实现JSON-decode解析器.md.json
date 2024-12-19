@@ -1,0 +1,5 @@
+{
+  "keywords": ["JSON", "JSON解析器", "Python", "解析原理", "有限状态机", "token", "json.loads", "性能比较", "数据格式"],
+  "description": "本文用Python实现了一个JSON解析器，并与Python内置的json库进行了性能比较。文章详细介绍了JSON解析器的实现原理，包括token类型、token化、数值解析、字符串解析、布尔值解析、null值解析以及JSON对象的解析。最后总结了实现过程，并指出实际开发中建议使用Python内置的json库。",
+  "title": "Python实现JSON解析器：原理与性能分析"
+}

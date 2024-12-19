@@ -1,0 +1,5 @@
+{
+  "keywords": ["Redis", "内存占用", "内存分析", "大key", "redis-rdb-tools", "python", "内存泄漏", "key分析", "性能优化", "rdb", "bigkeys"],
+  "description": "本文介绍如何分析 Redis 内存占用，使用 redis-rdb-tools 导出 RDB 文件，并利用 Python 脚本统计每个 key 的内存使用情况，从而定位内存占用大的 key，有效解决 Redis 内存增长问题。",
+  "title": "Redis 内存占用分析及优化：使用 redis-rdb-tools 和 Python 脚本定位大 Key"
+}

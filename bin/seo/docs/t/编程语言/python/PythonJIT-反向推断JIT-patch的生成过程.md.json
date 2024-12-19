@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "JIT", "编译时", "机器码", "patch", "jit_stencils.h", "ELF", "x86_64", "aarch64", "relocation", "code patching", "内存拷贝", "memcpy", "patch_64", "patch_32r", "patch_x86_64_32rx", "Hole", "HoleValue", "llvm", "JSON", "Tools/jit", "_writer.py", "_targets.py", "_stencils.py"],
+  "description": "本文分析了 Python 编译时生成的 jit_stencils.h 文件，详细解释了其中 `patch_*` 函数的作用、参数含义以及生成过程。文章深入探讨了基于 ELF 文件结构的重定位 (Relocation) 信息如何转化为 C 代码中的 `patch` 操作，并追踪了从 JSON 数据到最终 C 代码的完整流程，涉及 `_writer.py`, `_targets.py`, `_stencils.py` 等关键文件。文章还对 `memcpy` 函数在代码中的作用进行了说明，并提出了后续关于 patch 代码工作机制和 Python runtime 执行方式的疑问。",
+  "title": "Python JIT 编译器：深入解析 jit_stencils.h 文件及其代码生成过程"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["eBPF", "BPF Map", "用户态", "内核态", "数据交互", "自定义数据存储", "Large custom data storage"],
+  "description": "eBPF 通过 BPF Map 提供一种高效的方式与用户态程序进行交互，BPF Map 作为大型自定义数据存储，实现内核态和用户态之间的数据共享和传递。",
+  "title": "eBPF与用户态交互：利用BPF Map高效进行数据共享"
+}

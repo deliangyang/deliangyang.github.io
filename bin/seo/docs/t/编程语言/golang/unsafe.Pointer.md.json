@@ -1,0 +1,5 @@
+{
+  "keywords": ["Go", "unsafe.Pointer", "unsafe", "指针", "内存地址", "偏移量", "结构体", "hack", "私有变量", "函数地址", "uintptr", "数据篡改"],
+  "description": "本文介绍了 Go 语言中 `unsafe.Pointer` 的用法，包括其基本概念、如何使用它来访问和修改私有变量以及获取函数地址。通过代码示例，详细解释了 `unsafe.Pointer` 在内存操作中的应用，并指出了安全使用 `unsafe.Pointer` 的重要性。",
+  "title": "Go 语言 unsafe.Pointer详解：内存操作、私有变量访问和函数地址获取"
+}

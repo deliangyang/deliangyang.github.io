@@ -1,0 +1,5 @@
+{
+  "keywords": ["UDP", "用户数据报协议", "User Datagram Protocol", "网络协议", "传输层", "OSI模型", "数据报", "不可靠传输", "DNS", "DHCP", "SNMP", "RIP", "NTP", "校验和", "checksum", "端口号", "IP地址", "数据包结构"],
+  "description": "UDP（用户数据报协议）是一种简单的面向数据报的通信协议，位于OSI模型的传输层。它提供不可靠的数据传输，常用于对时间要求高的应用，例如DNS、DHCP、SNMP、RIP和NTP。本文详细介绍了UDP的数据包结构、校验和计算以及应用场景。",
+  "title": "深入理解UDP协议：数据包结构、校验和计算及应用场景"
+}

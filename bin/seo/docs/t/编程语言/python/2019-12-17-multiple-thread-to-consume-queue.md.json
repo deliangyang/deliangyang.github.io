@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "多线程", "Queue", "队列", "LifoQueue", "线程池", "并发", "生产者消费者", "阻塞队列", "threading", "多进程", "python多线程编程", "python队列"],
+  "description": "本文介绍了如何在Python中使用多线程高效消费队列(Queue)，以LifoQueue为例，演示了如何创建多个线程并发地从队列中读取数据并写入不同的文件，并讲解了使用Queue避免锁的机制以及生产者消费者模型的应用。",
+  "title": "Python多线程消费Queue：高效并发处理数据"
+}

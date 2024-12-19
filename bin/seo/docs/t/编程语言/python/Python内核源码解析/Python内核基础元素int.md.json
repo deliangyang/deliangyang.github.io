@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "源码", "整数", "int", "大整数", "PyLongObject", "数据结构", "PyObject", "C语言", "底层实现", "字节码", "加法运算", "算法", "性能优化", "SEO优化", "SEO"],
+  "description": "深入剖析 Python 大整数的底层实现原理，详解 PyLongObject 数据结构、初始化、加法运算等核心机制，以及为什么使用数组存储 int 值，并附带源码分析和图解说明。理解 Python 如何高效处理大整数，提升编程技能。",
+  "title": "Python 源码揭秘：大整数 (int) 的底层实现机制"
+}

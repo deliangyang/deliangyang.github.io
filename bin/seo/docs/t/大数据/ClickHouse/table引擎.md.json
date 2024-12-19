@@ -1,0 +1,5 @@
+{
+  "keywords": ["ClickHouse", "Table Engine", "Kafka Engine", "Kafka", "数据流", "流数据", "实时数据", "JSONEachRow", "容错", "分布式", "数据库", "大数据"],
+  "description": "ClickHouse Kafka 引擎详解，介绍了其特性、老版和新版配置格式，包括发布订阅数据流、容错存储机制以及处理流数据的能力。  学习如何使用 Kafka 引擎高效处理实时数据。",
+  "title": "ClickHouse Kafka引擎：高效处理实时数据流的利器"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["Redis", "RedLock", "SetNx", "分布式锁", "zookeeper", "etcd", "锁机制", "高可用", "并发控制"],
+  "description": "本文探讨了使用Redis RedLock以及SetNx命令实现分布式锁的方案，并对zookeeper和etcd等其他分布式锁方案进行了简要介绍，旨在帮助读者理解和选择合适的分布式锁机制以解决高并发场景下的数据一致性问题。",
+  "title": "Redis RedLock SetNx分布式锁及ZooKeeper、etcd方案比较"
+}

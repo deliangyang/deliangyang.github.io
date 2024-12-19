@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "PyObject", "PyVarObject", "数据结构", "底层实现", "内核", "引用计数", "ob_refcnt", "ob_type", "ob_size", "C语言", "源码分析", "Python源码", "编程语言", "算法", "typeobject", "PyObject_VAR_HEAD", "_PyObject_HEAD_EXTRA", "双向链表"],
+  "description": "深入探讨Python内核中最重要的数据结构PyObject和PyVarObject，分析其C语言源码实现，包括引用计数、类型对象等关键字段，并简要介绍其在Python数据类型中的应用。文章旨在引出PyObject，后续将深入分析各种Python数据结构的底层实现。",
+  "title": "Python内核核心数据结构：PyObject详解及源码分析"
+}

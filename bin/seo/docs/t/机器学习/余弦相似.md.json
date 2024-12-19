@@ -1,0 +1,5 @@
+{
+  "keywords": ["余弦相似度", "cosine similarity", "向量相似度", "向量夹角", "numpy", "sklearn", "python", "余弦相似性计算", "公式", "dot product", "模"],
+  "description": "本文介绍了余弦相似度的概念、计算公式以及Python代码实现（使用numpy和sklearn库）。通过计算两个向量的夹角余弦值来衡量向量间的相似度，夹角越小，相似度越高。文中提供了手动计算和使用sklearn库计算的两种方法。",
+  "title": "Python实现余弦相似度计算：公式、Numpy和Sklearn方法详解"
+}

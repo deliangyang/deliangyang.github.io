@@ -1,0 +1,5 @@
+{
+  "keywords": ["Just-In-Time Compilation", "JIT Compilation", "及时编译", "编译器", "虚拟机", "性能优化", "运行时编译", "动态编译", "Java", "JavaScript", "C#", "Python", "性能提升", "代码执行", "解释执行", "编译执行"],
+  "description": "深入了解Just-In-Time (JIT) Compilation，即时编译技术。文章解释了JIT编译的工作原理，其优缺点，以及在各种编程语言（如Java、JavaScript、C#等）中的应用，并探讨了它如何提升程序性能。",
+  "title": "Just-In-Time (JIT) Compilation：及时编译技术详解及性能优化"
+}

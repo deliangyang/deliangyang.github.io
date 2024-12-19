@@ -1,0 +1,5 @@
+{
+  "keywords": ["CDN", "OpenResty", "Lua", "Vue", "Kafka", "Flink", "ClickHouse", "Golang", "缓存", "实时缓存清除", "WAF", "SSL证书", "Let's Encrypt", "负载均衡", "边缘节点", "内容预取", "日志采集", "实时统计", "数据分析", "域名管理", "访问管理", "请求改写", "缓存逻辑", "分层缓存", "网页加速", "点播加速"],
+  "description": "高性能 CDN 系统架构，基于 OpenResty + Lua、Vue、Kafka、Flink、ClickHouse 等技术栈构建，实现分层缓存、实时缓存清除、本机 WAF、SSL 证书管理、请求改写等功能，并提供完善的后台管理系统，支持日志采集、统计分析、域名管理、访问控制等。  采用边缘节点内容预取技术，优化网页加速和点播加速体验。",
+  "title": "高性能CDN系统架构设计与实现"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python JIT", "JIT Compilation", "Python 3.14", "LLVM", "Clang", "PEP 744", "jit_stencils.h", "compiler toolchain", "debug mode", "machine code", "assembly code", "VSCode debugging", "docker", "Python源码编译", "字节码", "机器码", "编译工具链"],
+  "description": "本文介绍了如何编译 Python 源码以调试其 JIT 编译器，包括必要的编译参数 (`--enable-experimental-jit --with-pydebug --with-trace-refs`)、Docker 的使用以及 VSCode 调试技巧。重点分析了 `jit_stencils.h` 文件以及编译过程，并解释了 Python JIT 编译工具链及机器码生成过程。文章也简述了 Python JIT 的工作原理及 PEP 744 相关文档。",
+  "title": "深入解析 Python JIT 编译器：源码编译、调试及机器码生成"
+}

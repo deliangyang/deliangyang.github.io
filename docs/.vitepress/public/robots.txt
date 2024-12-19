@@ -1,0 +1,3 @@
+Sitemap: https://blog.ranchulin.com/sitemap.xml
+
+User-agent: *

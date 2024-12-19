@@ -1,0 +1,5 @@
+{
+  "keywords": ["platform support beams", "load calculation", "rounded rocks", "structural integrity", "collapse prevention", "puzzle", "game", "weight distribution"],
+  "description": "Calculate the total load on the north support beams of a platform after rounded rocks roll to the north.  Each rock's load is determined by its row distance from the south edge. Solve this structural engineering puzzle to prevent platform collapse.",
+  "title": "Prevent Platform Collapse: Calculate the Total Load"
+}

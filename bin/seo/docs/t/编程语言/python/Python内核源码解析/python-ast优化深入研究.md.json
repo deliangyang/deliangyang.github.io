@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "语法树", "AST", "优化", "常量折叠", "一元运算符", "列表", "集合", "比较操作符", "下标操作符", "元组", "字节码", "fold_binop", "make_const", "fold_unaryop", "fold_iter", "fold_compare", "fold_subscr", "fold_tuple", "Python 内核源码解析", "PyNumber_Add", "PyNumber_Negative", "PyNumber_Positive", "PyNumber_Invert", "PyObject_GetItem", "PyFrozenSet_New", "循环消除"],
+  "description": "本文深入解析了 Python 语法树的优化过程，涵盖常量折叠、一元运算符优化、列表/集合优化、比较操作符优化、下标操作符优化以及元组优化等多种优化手段，并结合代码示例和字节码分析，详细解释了这些优化技术的实现原理和效果。文章还探讨了 Python 未实现的优化，例如循环消除。",
+  "title": "Python 语法树 AST 优化详解：从常量折叠到高级优化技巧"
+}

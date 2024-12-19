@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "字节码优化", "peephole 优化器", "compile.c", "peephole.c", "控制流图", "基本块", "optimize_cfg", "optimize_basic_block", "clean_basic_block", "LOAD_CONST", "POP_JUMP_IF_FALSE", "POP_JUMP_IF_TRUE", "JUMP_ABSOLUTE", "NOP"],
+  "description": "本文分析了 Python 内核源码中字节码优化的实现，重点介绍了 `peephole` 优化器在 `compile.c` 和 `peephole.c` 文件中的实现细节，包括控制流图优化、基本块优化以及 `optimize_cfg`, `optimize_basic_block`, `clean_basic_block` 等关键函数的功能和作用。  通过对 LOAD_CONST 等指令的优化示例，阐述了其如何提高字节码执行效率。",
+  "title": "Python 字节码优化：peephole 优化器深度解析"
+}

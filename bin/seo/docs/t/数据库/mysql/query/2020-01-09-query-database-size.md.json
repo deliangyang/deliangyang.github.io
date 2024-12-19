@@ -1,0 +1,5 @@
+{
+  "keywords": ["MySQL", "数据库", "表大小", "行数", "PHP", "查看表大小", "数据库大小", "数据量", "表信息", "SQL", "mysqli", "show table status", "show create table"],
+  "description": "使用PHP脚本查看MySQL数据库中每个表的大小和行数，代码包含详细注释，并使用`show table status`和`show create table`语句获取所需信息。",
+  "title": "PHP脚本：高效查看MySQL数据库表大小及行数"
+}

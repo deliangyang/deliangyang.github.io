@@ -1,0 +1,5 @@
+{
+  "keywords": ["迭代器", "生成器", "C++", "Python", "扩展", "PyIter_Next", "PyObject_GetIter", "PyObject_Print", "Py_BuildValue", "Py_DECREF", "PyArg_ParseTuple", "PySequence_GetItem", "迭代器模式", "生成器模式", "内存优化", "Python扩展开发", "C++ Python 扩展"],
+  "description": "本文介绍了如何使用 C/C++ 实现 Python 的迭代器和生成器，并通过具体的代码示例演示了它们的用法和原理。迭代器用于遍历集合，生成器则用于按需生成值，两者结合可以有效优化内存使用。文章包含了完整的 C++ 代码、setup.py 文件和 Python 测试代码，以及流程图，方便读者理解和实践。",
+  "title": "C++实现Python迭代器和生成器：优化内存的利器"
+}

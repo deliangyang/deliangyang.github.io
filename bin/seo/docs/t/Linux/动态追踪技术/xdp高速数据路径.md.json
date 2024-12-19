@@ -1,0 +1,5 @@
+{
+  "keywords": ["XDP", "eXpress Data Path", "高速数据路径", "BPF_PROG_TYPE_XDP", "DDoS 防御", "防护墙", "4 层负载均衡", "TC", "Traffic Control", "流量控制", "BPF_PROG_TYPE_SCHED_CLS", "BPF_PROG_TYPE_SCHED_ACT", "Linux 流量控制", "网络流量整形", "带宽控制", "网络处理", "eBPF"],
+  "description": "XDP (eXpress Data Path) 和 TC (Traffic Control) 是 Linux 内核中用于高性能网络处理的两种核心技术。XDP 提供高速数据路径，常用于 DDoS 防御、防护墙和 4 层负载均衡等应用。TC 通过分类器和执行器实现网络流量的整形调度和带宽控制。本文介绍了 XDP 和 TC 的基本原理、应用场景及对应的 BPF 程序类型。",
+  "title": "Linux 高性能网络处理：XDP 和 TC 的原理及应用"
+}

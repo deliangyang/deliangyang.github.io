@@ -1,0 +1,5 @@
+{
+  "keywords": ["汇编指令", "寄存器", "EAX", "EBX", "ECX", "EDX", "ESP", "EBP", "ESI", "EDI", "EIP", "CS", "DS", "SS", "ES", "标志寄存器", "MOV", "PUSH", "POP", "ADD", "ADC", "INC", "AND", "OR", "XOR", "NOT", "JMP", "CALL", "RET", "LOOP", "INT", "HLT", "伪指令", "DW", "PROC", "ENDP", "SEGMENT", "ASSUME", "ENDS", "END", "gcc", "objdump", "栈帧指针", "函数调用参数"],
+  "description": "本文详细介绍了汇编指令，包括寄存器（通用寄存器、特殊功能寄存器、段寄存器、标志寄存器）、常见汇编指令（命令类、算术运算指令、逻辑运算指令、串指令、程序转移指令、处理器控制指令）、伪指令以及汇编代码示例。学习本文有助于理解汇编语言的基础知识。",
+  "title": "汇编指令详解：寄存器、常用指令及代码示例"
+}

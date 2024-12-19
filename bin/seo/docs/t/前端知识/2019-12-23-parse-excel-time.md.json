@@ -1,0 +1,5 @@
+{
+  "keywords": ["Excel", "浮点时间", "时间戳", "时间格式化", "Date.prototype.Format", "JavaScript", "PHP", "php.ini", "max_input_vars", "表单提交", "数据截断"],
+  "description": "本文介绍如何在 Excel 中读取浮点时间并将其转换为 JavaScript 时间戳，包含时间格式化方法和解决 PHP 表单提交数据量超过 1000 条被截断的问题。提供 JavaScript 代码示例实现时间戳转换和格式化，以及 PHP 配置调整建议。",
+  "title": "Excel浮点时间转换与JavaScript时间格式化及PHP表单提交数据量限制解决"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "C++", "C", "扩展", "模块", "嵌入", "解释器", "Py_Initialize", "PyRun_SimpleString", "Py_Finalize", "PyArg_ParseTuple", "PyObject", "PyMethodDef", "PyModuleDef", "PyInit_demo", "PyModule_Create", "动态链接库", "性能优化", "代码热更新", "模块扩展", "Python扩展开发", "嵌入式Python"],
+  "description": "学习如何使用 C/C++ 扩展 Python，包括嵌入 Python 解释器和开发 Python 模块。文章涵盖了初始化、执行 Python 代码、参数解析、模块创建等关键步骤，并提供了代码示例和编译方法，帮助你提升 Python 应用程序性能并深入理解 Python 的实现原理。",
+  "title": "C/C++ 扩展 Python：模块扩展与嵌入 Python 解释器详解"
+}

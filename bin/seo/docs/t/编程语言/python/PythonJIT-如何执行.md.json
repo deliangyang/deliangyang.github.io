@@ -1,0 +1,5 @@
+{
+  "keywords": ["PythonJIT", "JIT", "Just-in-time compilation", "uops", "micro-instruction", "opcode", "emit function", "code generation", "executable memory", "mprotect", "Python", "optimizer", "uop_optimize", "_PyJIT_Compile", "bytecode", "trace", "performance optimization", "JIT optimization", "C", "memory management", "instruction cache"],
+  "description": "本文深入探讨 PythonJIT 的 JIT 代码转换时机、代码执行机制以及 JIT 优化开启条件。文章分析了 `_PyJIT_Compile` 函数、`mark_executable` 函数、`execute_jit_code` 函数和 `uop_optimize` 函数等关键函数，并解释了 uops 缓冲区在 JIT 代码执行中的作用，以及如何通过配置和环境变量控制 JIT 优化的开启与关闭。",
+  "title": "PythonJIT 深入解析：JIT 代码转换时机、执行机制及优化策略"
+}

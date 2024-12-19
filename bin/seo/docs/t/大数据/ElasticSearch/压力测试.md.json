@@ -1,0 +1,5 @@
+{
+  "keywords": ["Elasticsearch", "ES", "压测", "性能测试", "esrally", "流水数据", "benchmark", "索引", "查询", "throughput", "latency", "percentile", "bulk", "match_all", "性能调优", "压测报告", "索引速度", "查询速度", "数据量", "GB", "docs/s", "ops/s", "ms", "min"],
+  "description": "本文使用 esrally 工具对 Elasticsearch 进行流水数据写入压测，测试了 1000 万、2000 万和 5000 万条数据写入的性能，并对结果进行了详细分析，包括索引时间、合并时间、刷新时间、查询性能等指标，以及不同查询方式下的性能对比。文章还提供了 track.json 和 index.json 配置文件示例。",
+  "title": "Elasticsearch 流水数据写入性能压测及结果分析"
+}

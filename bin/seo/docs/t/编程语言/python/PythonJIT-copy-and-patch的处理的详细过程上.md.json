@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python JIT", "Just In Time", "copy-and-patch", "compilation", "llvm", "clang", "docker", "abstract syntax tree (AST)", "bytecode", "machine code", "llvm-objdump", "llvm-readobj", "jit_stencils.h", "x86_64", "object dump", "shellcode", "optimization", "pattern matching", "compiler technique"],
+  "description": "This article details the Python JIT (Just In Time) compilation process using the copy-and-patch technique. It explores the implementation principles, demonstrates setting up a Docker environment for research, and explains the roles of llvm, clang, llvm-objdump, and llvm-readobj in generating and analyzing machine code.  The article dives into the generation of jit_stencils.h, analyzing the C code generated for a specific instruction (_BINARY_OP), and examining the object dump and JSON output from llvm-readobj to understand how machine code is produced and the significance of related tools.",
+  "title": "Deep Dive into Python JIT Compilation: Copy-and-Patch with LLVM and Clang"
+}

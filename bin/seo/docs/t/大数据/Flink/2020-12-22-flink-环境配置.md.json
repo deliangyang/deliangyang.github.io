@@ -1,0 +1,5 @@
+{
+  "keywords": ["Flink", "大数据", "环境准备", "安装", "配置", "启动", "关闭", "提交 Job", "WordCount", "Scala", "Java", "Python", "PyFlink", "Apache Flink", "Flink Web UI", "集群模式", "批处理", "命令行"],
+  "description": "本文详细介绍了Flink大数据环境的准备，包括Flink的下载、安装、环境变量配置、启动、关闭以及Job程序的提交方式。文章以WordCount程序为例，演示了如何在Flink中运行一个简单的批处理程序，并介绍了Flink Web界面的使用方法，方便用户监控和管理Job。",
+  "title": "Flink大数据实践：环境准备与WordCount案例详解"
+}

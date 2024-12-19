@@ -1,0 +1,5 @@
+{
+  "keywords": ["Go", "runtime", "empty interface", "eface", "non-empty interface", "iface", "itab", "interfacetype", "imethod", "_type", "unsafe.Pointer", "Go internals", "interface implementation"],
+  "description": "This document explains the internal structure of empty interfaces (`eface`) and non-empty interfaces (`iface`) in the Go runtime.  It details the fields of `eface`, `iface`, `itab`, `interfacetype`, and `_type`, highlighting how method implementations are stored and accessed, including the handling of multiple methods via hash tables.",
+  "title": "Understanding Go's `eface` and `iface`: A Deep Dive into Interface Internals"
+}

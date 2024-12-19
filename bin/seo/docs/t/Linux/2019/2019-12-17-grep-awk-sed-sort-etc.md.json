@@ -1,0 +1,5 @@
+{
+  "keywords": ["Linux", "shell", "grep", "sed", "awk", "sort", "jq", "command-line", "JSON processor", "log processing", "text processing", "regular expression", "regex", "perl-regexp", "file searching", "string manipulation", "data extraction", "bash scripting"],
+  "description": "Learn powerful Linux shell commands for efficient text and log processing. This guide covers grep, sed, awk, sort, and jq, demonstrating their usage with practical examples, including  handling JSON data and processing large log files.  Optimize your workflow with these essential tools.",
+  "title": "Mastering Linux Shell Commands for Efficient Text & Log Processing"
+}

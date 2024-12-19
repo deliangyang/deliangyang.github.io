@@ -1,0 +1,5 @@
+{
+  "keywords": ["sql-client", "flink sql", "table", "configuration", "csv", "source table", "view", "UDF", "user defined function", "connector", "filesystem", "execution", "deployment", "SQL", "Apache Flink"],
+  "description": "本文档介绍了如何使用 sql-client 配置文件连接数据源，定义表、视图和 UDF，并执行 SQL 查询。配置文件包含 tables、functions、catalogs、execution 和 deployment 等配置项。示例展示了使用 CSV 数据作为数据源，并执行 group by 语句的 SQL 查询。",
+  "title": "Flink SQL Client 配置指南及示例"
+}

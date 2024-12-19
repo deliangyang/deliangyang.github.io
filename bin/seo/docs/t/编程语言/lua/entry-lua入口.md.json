@@ -1,0 +1,5 @@
+{
+  "keywords": ["Lua", "Lua C API", "luaL_newstate", "luaL_loadfile", "lua_pcall", "lua_pcallk", "Lua脚本执行", "Lua嵌入式开发", "C语言", "Lua解释器", "命令行参数", "脚本加载", "错误处理", "标准库"],
+  "description": "本文介绍了如何使用C语言调用Lua脚本，包括创建Lua状态机、加载脚本文件、执行脚本以及处理命令行参数。详细讲解了`luaL_newstate`, `luaL_loadfile`, `lua_pcall`, `lua_pcallk`等关键函数的用法，并阐述了Lua嵌入式开发的流程。",
+  "title": "Lua C API详解：使用C语言嵌入和执行Lua脚本"
+}

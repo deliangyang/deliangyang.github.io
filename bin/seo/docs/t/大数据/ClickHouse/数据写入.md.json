@@ -1,0 +1,5 @@
+{
+  "keywords": ["ClickHouse", "列式数据库", "DBMS", "数据压缩", "非关联数据存储", "海量日志型数据存储", "SQL", "数据类型"],
+  "description": "ClickHouse是一个高效的列式数据库管理系统(DBMS)，擅长处理非关联数据和海量日志型数据，具有良好的数据压缩效果。本文简要介绍ClickHouse的数据类型，并提供查询数据类型的SQL语句。",
+  "title": "ClickHouse 列式数据库：高效处理海量数据的利器"
+}

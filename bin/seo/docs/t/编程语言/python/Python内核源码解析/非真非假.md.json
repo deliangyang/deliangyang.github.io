@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "内核源码", "POP_JUMP_IF_FALSE", "POP_JUMP_IF_TRUE", "Py_IsTrue", "PyObject_IsTrue", "Py_Is", "is", "==", "!=", "单例模式", "True", "False", "if判断", "弱类型语言", "字节码", "C源码解析"],
+  "description": "深入解析Python内核源码中`POP_JUMP_IF_FALSE`和`POP_JUMP_IF_TRUE`指令，解释Python中if条件判断的非真非假情况，以及`is`和`==`运算符的区别，并分析`Py_IsTrue`、`PyObject_IsTrue`和`Py_Is`函数的实现原理。",
+  "title": "Python内核源码解析：if判断的真假奥秘及is与==的差异"
+}

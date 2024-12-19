@@ -1,0 +1,5 @@
+{
+  "keywords": ["eBPF", "BPF", "hello world", "cilium/ebpf", "tracepoint", "sys_enter_execve", "bpftool", "BTF", "BPF Type Format", "内核", "linux", "go", "golang", "编译", "加载", "探针", "性能分析", "系统调用", "安全", "监控", "网络监控", "火焰图",  "uprobe", "readelf", "objdump", "vmlinux", "CO-RE", "Compile Once Run Everywhere"],
+  "description": "本教程介绍了一个简单的 eBPF hello world 程序，使用 cilium/ebpf 库在 Linux 系统上实现。文章涵盖了代码编写、编译、加载和运行，并深入探讨了 BTF (BPF Type Format) 如何解决不同内核版本兼容性问题，以及 eBPF 在性能分析、安全监控和网络嗅探等方面的应用。",
+  "title": "eBPF Hello World 入门教程：从零开始学习 eBPF 及其应用"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "内核源码", "虚拟机", "Grammer", "AST", "tokenizer", "parser", "逻辑优化", "opcode", "pyc", "Token", "标记语法", "词法分析", "词法分析器", "analyzer-lexer", "scanner", "Parser", "语法分析", "语法分析树", "抽象语法树", "自顶向下分析", "自底向上分析", "编译", "编译器优化", "vm"],
+  "description": "深入解析 Python 内核源码，涵盖虚拟机、词法分析 (Token)、语法分析 (Parser) 和编译等核心模块，详细讲解 Grammer、AST、opcode、pyc 等关键概念及自顶向下、自底向上分析等算法。",
+  "title": "Python 内核源码深度解析：虚拟机、词法分析与编译原理"
+}

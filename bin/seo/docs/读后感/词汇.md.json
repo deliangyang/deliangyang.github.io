@@ -1,0 +1,5 @@
+{
+  "keywords": ["Neovim", "Vim", "LSP", "code editor", "terminal emulator", "Vimscript", "semantic code inspection", "refactoring", "go-to definition", "find references", "code formatting", "builtin LSP client", "modern terminal features", "cursor styling", "focus events", "bracketed paste", "science fiction", "documentation"],
+  "description": "Neovim is a highly usable and extensible code editor fully compatible with Vim's editing model and Vimscript.  It features a built-in LSP client for semantic code inspection and refactoring, strong defaults, and works consistently across platforms.  Modern terminal features are supported, and a built-in terminal emulator is included.  For Vim users, transition is eased with comprehensive documentation and compatibility.",
+  "title": "Neovim: A Powerful and Usable Vim-Compatible Code Editor"
+}

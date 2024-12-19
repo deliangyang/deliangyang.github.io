@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "FFI", "C", "C++", "动态链接库", "代码调用", "嵌入式", "跨语言", "CPython", "Ruby", "Rust", "Nodejs", "PHP", "Java", "X86", "X86-64", "PowerPC", "ARM", "AArch64", "ABI", "编译", "性能优化"],
+  "description": "本文介绍如何使用 Python 的 FFI (Foreign Function Interface) 来调用 C/C++ 代码，包括调用动态链接库和在 Python 代码中嵌入 C 代码两种方法。FFI 能够提高开发效率，并支持多种编程语言和操作系统。",
+  "title": "Python FFI：高效调用 C/C++ 代码的完整指南"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["lua", "lua工程", "目录结构", "头文件", "lapi.h", "lauxlib.h", "lcode.h", "ldebug.h", "ldo.h", "lfunc.h", "lgc.h", "llex.h", "lmem.h", "lobject.h", "lopcodes.h", "lparser.h", "lstate.h", "lstring.h", "ltable.h", "ltm.h", "lua.h", "lua.hpp", "luaconf.h", "lualib.h", "lundump.h", "lvm.h", "lzio.h", "代码生成器", "垃圾回收", "词法分析器", "内存管理", "虚拟机", "解释器", "配置文件", "辅助库", "栈", "调试", "字符串", "表操作", "预编译", "缓冲区", "C++"],
+  "description": "本文分析了 Lua 工程的目录结构，详细列出了各个头文件（如 lapi.h, lauxlib.h, lcode.h 等）的功能和作用，涵盖了 Lua 的核心组件，例如虚拟机、垃圾回收、内存管理、词法分析器等。 通过查看这些头文件，可以深入了解 Lua 的内部实现机制。",
+  "title": "Lua 工程目录结构及核心头文件详解"
+}

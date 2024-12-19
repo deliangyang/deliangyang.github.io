@@ -1,0 +1,5 @@
+{
+  "keywords": ["REPL", "read-evaluate-print-loop", "RPPL", "read-parse-print-loop", "parser", "lexer", "AST", "abstract syntax tree", "expression parsing", "operator precedence", "Top Down Operator Precedence", "infix operators", "prefix operators", "string literals", "token", "grammar rules", "programming language", "monkey programming language", "implementation", "algorithm", "terminology", "integer literal", "boolean literal", "index expression", "null value", "parentheses"],
+  "description": "This article details the implementation of expression parsing in a compiler for the Monkey programming language, focusing on operator precedence using a Top Down Operator Precedence approach.  It covers topics such as handling string literals,  AST representation,  infix and prefix operators, and resolving ambiguities in index expressions. The author also discusses the challenges of explaining algorithms and their implementation effectively.",
+  "title": "Implementing Expression Parsing with Top Down Operator Precedence in a Monkey Compiler"
+}

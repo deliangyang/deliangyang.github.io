@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "字节码", "Python内核", "opcode", "LOAD_CONST", "STORE_NAME", "Python3.10.7", "中间语言", "执行引擎", "运行机制", "汇编指令", "指令参数", "LOAD_GLOBAL", "CALL_FUNCTION", "STORE_FAST", "POP_TOP", "RETURN_VALUE", "dis", "co_code", "字节码分析", "SEO优化"],
+  "description": "本文分析了学习Python内核时为何要从字节码分析入手，详细解释了Python字节码的结构、指令类型（如加载和存储指令、栈操作指令、控制流指令等）以及指令参数的作用，并通过例子和代码片段深入浅出地讲解了字节码的运行机制。理解字节码有助于深入理解Python的执行引擎和运行机制。",
+  "title": "深入Python内核：从字节码分析开始理解Python运行机制"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["窥孔优化", "编译优化", "字节码优化", "常量折叠", "控制流优化", "Python", "Python 内核", "OpCode 优化", "编译原理", "性能优化", "服务器内存", "CPU指令", "assemble", "optimize_cfg", "trim_unused_consts", "ast.dump", "compile.c"],
+  "description": "本文探讨了窥孔优化技术，包括常量折叠、去除无用代码和控制流优化等，并分析了这些优化对程序执行效率和资源消耗的影响。文章以Python内核为例，解释了这些优化在实际应用中的体现，并提供了阅读和理解相关源码的建议。",
+  "title": "窥孔优化：提升Python性能的利器"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["Lua", "Lua 编译器", "Lua 实现原理", "Go", "Tokenizer", "Parser", "AST", "Lua 数据结构", "Lua VM", "Lua GC", "Lua 协程", "Lua JIT", "Lua Socket", "socket", "udp", "http", "select", "Monkey Lang", "DSL", "编程语言", "源码分析", "技术博客", "2022 年计划"],
+  "description": "2022 年 11 月份学习计划，重点学习 Lua 编程语言，包括 Lua 编译器实现、Lua 虚拟机、垃圾回收、协程、Socket 库等核心内容，并计划实现一个简单的 DSL (Monkey Lang)。",
+  "title": "2022 年 11 月学习计划：深入探索 Lua 编程语言及编译器实现"
+}

@@ -1,0 +1,5 @@
+{
+  "keywords": ["MySQL", "PostgreSQL", "group by", "SQL", "数据库", "查询优化", "count", "聚合函数", "分组查询", "相同组数量最多", "性能优化", "视图"],
+  "description": "本文介绍了如何使用MySQL和PostgreSQL的group by语句高效地筛选出分组后数量最多的列，并详细解释了两种数据库的实现方法及思路，包括两次group by操作的原理，以及count函数的用法和性能优化建议。",
+  "title": "MySQL和PostgreSQL中高效筛选group by后数量最多的列"
+}

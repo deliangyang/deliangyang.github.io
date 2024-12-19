@@ -1,0 +1,5 @@
+{
+  "keywords": ["database synchronization", "MySQL", "mysqldump", "bash script", "data backup", "table synchronization", "database backup", "incremental backup", "shell script", "database migration"],
+  "description": "This bash script automates the synchronization of MySQL databases by dumping and restoring tables individually.  It iterates through each table in a source database, creates a temporary SQL dump file, and then applies that dump to a target database.  Ideal for database backups or migrations.",
+  "title": "Automated MySQL Database Synchronization using Bash Script"
+}
