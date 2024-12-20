@@ -60,6 +60,7 @@ export default {
     }
     pageData.title = title
     if (metaInfo.title) {
+      title = metaInfo.title
       pageData.title = metaInfo.title
     }
     if (metaInfo.description) {
