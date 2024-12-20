@@ -41,7 +41,7 @@ export default {
     console.log('-------------------------------------------------------------------')
     const canonicalUrl = `${ogUrl}/${pageData.relativePath}`
       .replace(/\.md$/, '.html')
-    const title = pageData.relativePath.replace(/\.md$/, '').replace('/', '_')
+    let title = pageData.relativePath.replace(/\.md$/, '').replace('/', '_')
     pageData.frontmatter.head ??= []
     
     const filename = __dirname + '/../../bin/seo/docs/' + pageData.filePath + '.json'
