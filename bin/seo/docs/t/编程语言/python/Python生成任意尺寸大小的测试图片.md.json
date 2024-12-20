@@ -1,0 +1,5 @@
+{
+  "keywords": ["Python", "PIL", "image generation", "image resizing", "图片生成", "图片缩放", "指定尺寸图片", "脚本", "命令行工具", "自动化测试", "SEO", "create_image.py", "pillow"],
+  "description": "本文介绍一个使用 Python 和 PIL 库生成指定尺寸图片的脚本，解决测试过程中需要反复截取图片的繁琐问题。该脚本支持自定义尺寸、后缀名，并可设置为命令行别名方便调用，提升测试效率。",
+  "title": "Python脚本自动生成指定尺寸图片，提升测试效率"
+}
