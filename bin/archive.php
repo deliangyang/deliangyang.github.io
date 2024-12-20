@@ -99,7 +99,11 @@ foreach ($monthly as $mon => $v) {
 
 ob_start();
 foreach ($daily as $k => $v) {
-    echo '## ' . $k . PHP_EOL;
+    $sum = 0;
+    foreach ($v as $kk => $vv) {
+        $sum += count($vv);
+    }
+    echo '## ' . $k . ' <i style="color:#999;font-size:14px">(共 ' . $sum . ' 篇)</i>'. PHP_EOL;
 
     foreach ($v as $kk => $vv) {
         echo "::: timeline {$kk}" . PHP_EOL;
