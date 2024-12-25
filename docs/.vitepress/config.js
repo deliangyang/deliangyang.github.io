@@ -110,6 +110,11 @@ export default {
       }
     ],
     sidebar: sidebar,
+    // autocorrect-disable
+    footer: {
+      message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备16056433号-1</a>'
+    },
+    // autocorrect-enable
   },
   plugins: [
     [
