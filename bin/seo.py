@@ -3,7 +3,7 @@ import os
 import time
 import re
 
-prompts = '为了优化 seo，帮忙提取总结这篇文章的关键词，description，并给出一个标题。给出 JSON 结构 {keywords: [], description: '', title: ''}。'
+prompts = '为了优化 seo，请以作者的角度来提取总结这篇文章的关键词，description，并给出一个有趣吸引人的标题。给出 JSON 结构 {keywords: [], description: '', title: ''}。'
 key = os.getenv('GEMINI_API_KEY')
 url = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={key}'
 dir = 'docs/'
