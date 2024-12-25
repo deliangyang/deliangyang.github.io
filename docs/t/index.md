@@ -1,34 +1,26 @@
 # 归档
 ## 算法
 - [红黑树](/t/算法/红黑树.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-## Linux
-- 2019
-  - [2019-12-17-grep-awk-sed-sort-etc](/t/Linux/2019/2019-12-17-grep-awk-sed-sort-etc.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- 2020
-  - [Linux 下手动编译编辑器 Zed](/t/Linux/Linux下手动编译编辑器Zed.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
-  - [2020-09-01-linux-tools-jq-json-processor](/t/Linux/2020/2020-09-01-linux-tools-jq-json-processor.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [2020-12-16-grep-parameters](/t/Linux/2020/2020-12-16-grep-parameters.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [2020-12-15-simple-command-in-curl](/t/Linux/2020/2020-12-15-simple-command-in-curl.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- 2021
-  - [2021-03-02-install-logstash-clickhouse-plugin](/t/Linux/2021/2021-03-02-install-logstash-clickhouse-plugin.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- 动态追踪技术
-  - [ebpf-数据结构介绍](/t/Linux/动态追踪技术/ebpf-数据结构介绍.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [ebpf](/t/Linux/动态追踪技术/ebpf.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [ebpf-和用户态交互](/t/Linux/动态追踪技术/ebpf-和用户态交互.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [xdp 高速数据路径](/t/Linux/动态追踪技术/xdp高速数据路径.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [ebpf-五大模块](/t/Linux/动态追踪技术/ebpf-五大模块.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [ebpf-修改函数入参和返回值](/t/Linux/动态追踪技术/ebpf-修改函数入参和返回值.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2023-03-28</datetime>]</i>
-  - [ebpf 参数获取](/t/Linux/动态追踪技术/ebpf参数获取.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [ebpf-helloworld 入门](/t/Linux/动态追踪技术/ebpf-helloworld入门.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- 进程 - 线程 - 协程
-  - [bpftrace](/t/Linux/进程-线程-协程/bpftrace.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [信号及通讯](/t/Linux/进程-线程-协程/信号及通讯.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-  - [IPC 进程间通讯](/t/Linux/进程-线程-协程/IPC进程间通讯.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [分布式锁](/t/Linux/进程-线程-协程/分布式锁.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-  - [5 钟 IO 模型](/t/Linux/进程-线程-协程/5钟IO模型.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [锁](/t/Linux/进程-线程-协程/锁.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-## 写作
-- [入门](/t/写作/入门.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-11-12</datetime>]</i>
+## 其它
+- [视频切割](/t/其它/视频切割.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+## 数据库
+- mysql
+  - [LAST_INSERT_ID 作为 UPDATE 语句的返回值 - 没有 RETURNING 一样可以玩](/t/数据库/mysql/LAST_INSERT_ID作为UPDATE语句的返回值-没有RETURNING一样可以玩.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-18</datetime>]</i>
+  - [2019-12-24-diff-database-fields](/t/数据库/mysql/2019-12-24-diff-database-fields.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - query
+    - [2020-01-09-query-database-size](/t/数据库/mysql/query/2020-01-09-query-database-size.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+    - [2019-12-06-multiple-group-by-query-count-desc](/t/数据库/mysql/query/2019-12-06-multiple-group-by-query-count-desc.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+    - [2020-01-09-sync-huge-database](/t/数据库/mysql/query/2020-01-09-sync-huge-database.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- redis
+  - [内存占用分布分析](/t/数据库/redis/内存占用分布分析.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- sqlite
+  - [文件结构逆向分析](/t/数据库/sqlite/文件结构逆向分析.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+## 机器学习
+- [tensorflow-推荐系统](/t/机器学习/tensorflow-推荐系统.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-21</datetime>]</i>
+- [pytorch](/t/机器学习/pytorch.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2023-03-19</datetime>]</i>
+- [余弦相似](/t/机器学习/余弦相似.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-21</datetime>]</i>
+## 技巧
+- [去掉 PHP 项目中的所有注释](/t/技巧/去掉PHP项目中的所有注释.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-01</datetime>]</i>
 ## llvm
 - [JIT](/t/llvm/JIT.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-11-02</datetime>]</i>
 - [流程学习](/t/llvm/流程学习.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
@@ -36,48 +28,48 @@
 ## 信息安全对抗
 - [竞赛小游戏](/t/信息安全对抗/竞赛小游戏.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
 - web 安全
-  - [XSS](/t/信息安全对抗/web安全/XSS.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [CSRF 攻击](/t/信息安全对抗/web安全/CSRF攻击.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [XSS](/t/信息安全对抗/web安全/XSS.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - 二进制
   - [shellcode](/t/信息安全对抗/二进制/shellcode.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [系统提权](/t/信息安全对抗/二进制/系统提权.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
   - [逆向工程反编译](/t/信息安全对抗/二进制/逆向工程反编译.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
   - [汇编](/t/信息安全对抗/二进制/汇编.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-  - [系统提权](/t/信息安全对抗/二进制/系统提权.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
 - 数据库
   - [SQL 注入](/t/信息安全对抗/数据库/SQL注入.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - 社会工程学
   - [心理学](/t/信息安全对抗/社会工程学/心理学.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-## Openresty
-- [CDN 系统重构](/t/Openresty/CDN系统重构.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- [index](/t/Openresty/index.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-11-04</datetime>]</i>
-- [CDN](/t/Openresty/CDN.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-## 技巧
-- [去掉 PHP 项目中的所有注释](/t/技巧/去掉PHP项目中的所有注释.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-01</datetime>]</i>
-## 英语
-- [基础](/t/英语/基础.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- [时态](/t/英语/时态.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- [other](/t/英语/other.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-07-29</datetime>]</i>
-- [动词](/t/英语/动词.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- [了解英语的发展历史及组成](/t/英语/了解英语的发展历史及组成.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- [状语](/t/英语/状语.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- [开始更多的练习](/t/英语/开始更多的练习.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2023-11-07</datetime>]</i>
-## 数据库
-- mysql
-  - [2019-12-24-diff-database-fields](/t/数据库/mysql/2019-12-24-diff-database-fields.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [LAST_INSERT_ID 作为 UPDATE 语句的返回值 - 没有 RETURNING 一样可以玩](/t/数据库/mysql/LAST_INSERT_ID作为UPDATE语句的返回值-没有RETURNING一样可以玩.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-18</datetime>]</i>
-  - query
-    - [2020-01-09-query-database-size](/t/数据库/mysql/query/2020-01-09-query-database-size.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-    - [2020-01-09-sync-huge-database](/t/数据库/mysql/query/2020-01-09-sync-huge-database.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-    - [2019-12-06-multiple-group-by-query-count-desc](/t/数据库/mysql/query/2019-12-06-multiple-group-by-query-count-desc.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- redis
-  - [内存占用分布分析](/t/数据库/redis/内存占用分布分析.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- sqlite
-  - [文件结构逆向分析](/t/数据库/sqlite/文件结构逆向分析.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+## 大数据
+- ClickHouse
+  - [注意事项](/t/大数据/ClickHouse/注意事项.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [table 引擎](/t/大数据/ClickHouse/table引擎.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [数据写入](/t/大数据/ClickHouse/数据写入.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [view 物化视图](/t/大数据/ClickHouse/view物化视图.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- ElasticSearch
+  - [压力测试](/t/大数据/ElasticSearch/压力测试.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- Flink
+  - [2020-12-22-flink-环境配置](/t/大数据/Flink/2020-12-22-flink-环境配置.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [sql-client-小试牛刀](/t/大数据/Flink/sql-client-小试牛刀.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [EventTime-and-ProccessTime](/t/大数据/Flink/EventTime-and-ProccessTime.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [批处理](/t/大数据/Flink/批处理.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [Flink-SQL](/t/大数据/Flink/Flink-SQL.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [2020-12-23-flink-日志文件批处理 - 聚合统计接口错误码](/t/大数据/Flink/2020-12-23-flink-日志文件批处理-聚合统计接口错误码.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [流式处理 kakfa](/t/大数据/Flink/流式处理kakfa.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [窗口函数](/t/大数据/Flink/窗口函数.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- Spark
+  - [流式处理](/t/大数据/Spark/流式处理.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [批处理](/t/大数据/Spark/批处理.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [SQL](/t/大数据/Spark/SQL.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+- 监控
+  - [prometheus](/t/大数据/监控/prometheus.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [grafana](/t/大数据/监控/grafana.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+## 前端知识
+- [2019-12-23-parse-excel-time](/t/前端知识/2019-12-23-parse-excel-time.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## 网络编程
-- [ICMP](/t/网络编程/ICMP.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- [TCP_IP 协议栈](/t/网络编程/TCP_IP协议栈.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-10-22</datetime>]</i>
 - [分布式](/t/网络编程/分布式.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - [滑动窗口](/t/网络编程/滑动窗口.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [ICMP](/t/网络编程/ICMP.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [TCP_IP 协议栈](/t/网络编程/TCP_IP协议栈.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-10-22</datetime>]</i>
 - [UDP 协议](/t/网络编程/UDP协议.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - DNS 协议
   - [DNS 协议](/t/网络编程/DNS协议/DNS协议.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
@@ -85,135 +77,143 @@
   - [2019-12-10-learn-basic-http](/t/网络编程/HTTP/2019-12-10-learn-basic-http.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - SSH
   - [ssh 实现端口转发](/t/网络编程/SSH/ssh实现端口转发.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-## 大数据
-- ClickHouse
-  - [注意事项](/t/大数据/ClickHouse/注意事项.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-  - [table 引擎](/t/大数据/ClickHouse/table引擎.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [view 物化视图](/t/大数据/ClickHouse/view物化视图.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [数据写入](/t/大数据/ClickHouse/数据写入.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- ElasticSearch
-  - [压力测试](/t/大数据/ElasticSearch/压力测试.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-- Flink
-  - [流式处理 kakfa](/t/大数据/Flink/流式处理kakfa.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [2020-12-23-flink-日志文件批处理 - 聚合统计接口错误码](/t/大数据/Flink/2020-12-23-flink-日志文件批处理-聚合统计接口错误码.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [EventTime-and-ProccessTime](/t/大数据/Flink/EventTime-and-ProccessTime.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-  - [sql-client-小试牛刀](/t/大数据/Flink/sql-client-小试牛刀.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [2020-12-22-flink-环境配置](/t/大数据/Flink/2020-12-22-flink-环境配置.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [窗口函数](/t/大数据/Flink/窗口函数.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [Flink-SQL](/t/大数据/Flink/Flink-SQL.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-  - [批处理](/t/大数据/Flink/批处理.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-- Spark
-  - [SQL](/t/大数据/Spark/SQL.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-  - [流式处理](/t/大数据/Spark/流式处理.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-  - [批处理](/t/大数据/Spark/批处理.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-- 监控
-  - [grafana](/t/大数据/监控/grafana.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
-  - [prometheus](/t/大数据/监控/prometheus.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+## 写作
+- [入门](/t/写作/入门.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-11-12</datetime>]</i>
+## 英语
+- [开始更多的练习](/t/英语/开始更多的练习.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2023-11-07</datetime>]</i>
+- [基础](/t/英语/基础.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [动词](/t/英语/动词.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [时态](/t/英语/时态.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [了解英语的发展历史及组成](/t/英语/了解英语的发展历史及组成.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [other](/t/英语/other.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-07-29</datetime>]</i>
+- [状语](/t/英语/状语.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+## Openresty
+- [CDN](/t/Openresty/CDN.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [index](/t/Openresty/index.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-11-04</datetime>]</i>
+- [CDN 系统重构](/t/Openresty/CDN系统重构.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## 编程语言
 - C&C++
   - [指针](/t/编程语言/C&C++/指针.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
   - [分而治之](/t/编程语言/C&C++/分而治之.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
-  - [链表](/t/编程语言/C&C++/链表.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
   - [动态规划](/t/编程语言/C&C++/动态规划.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
-  - [树](/t/编程语言/C&C++/树.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
-  - [排序](/t/编程语言/C&C++/排序.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
+  - [first](/t/编程语言/C&C++/first.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
   - [图](/t/编程语言/C&C++/图.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-07-17</datetime>]</i>
-  - [栈](/t/编程语言/C&C++/栈.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
   - [队列](/t/编程语言/C&C++/队列.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
   - [堆](/t/编程语言/C&C++/堆.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
-  - [first](/t/编程语言/C&C++/first.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
+  - [树](/t/编程语言/C&C++/树.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
+  - [栈](/t/编程语言/C&C++/栈.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
+  - [链表](/t/编程语言/C&C++/链表.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
+  - [排序](/t/编程语言/C&C++/排序.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
 - Rust
-  - [unsafe](/t/编程语言/Rust/unsafe.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-04</datetime>]</i>
-  - [zed-ui 库-gpui-初次尝试 - 树状嵌套](/t/编程语言/Rust/zed-ui库-gpui-初次尝试-树状嵌套.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-13</datetime>]</i>
-  - [intruduction](/t/编程语言/Rust/intruduction.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-04</datetime>]</i>
-  - [所有权](/t/编程语言/Rust/所有权.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-04</datetime>]</i>
   - [高级的 Rust](/t/编程语言/Rust/高级的Rust.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-04</datetime>]</i>
-  - [rust-lifetime](/t/编程语言/Rust/rust-lifetime.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-05</datetime>]</i>
+  - [zed-ui 库-gpui-初次尝试 - 树状嵌套](/t/编程语言/Rust/zed-ui库-gpui-初次尝试-树状嵌套.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-13</datetime>]</i>
+  - [unsafe](/t/编程语言/Rust/unsafe.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-04</datetime>]</i>
+  - [所有权](/t/编程语言/Rust/所有权.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-04</datetime>]</i>
   - [rust 学习提纲](/t/编程语言/Rust/rust学习提纲.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-04</datetime>]</i>
+  - [rust-lifetime](/t/编程语言/Rust/rust-lifetime.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-05</datetime>]</i>
+  - [intruduction](/t/编程语言/Rust/intruduction.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-04</datetime>]</i>
 - Scala
-  - [sbt 工具了解](/t/编程语言/Scala/sbt工具了解.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [basic](/t/编程语言/Scala/basic.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [sbt 工具了解](/t/编程语言/Scala/sbt工具了解.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - golang
-  - [eface_and_iface](/t/编程语言/golang/eface_and_iface.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [go-HTTP 服务优雅退出](/t/编程语言/golang/go-HTTP服务优雅退出.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
-  - [golang 中的几种压缩和解压方式](/t/编程语言/golang/golang中的几种压缩和解压方式.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-02-26</datetime>]</i>
-  - [二进制包体积压缩](/t/编程语言/golang/二进制包体积压缩.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-12-09</datetime>]</i>
   - [unsafe.Pointer](/t/编程语言/golang/unsafe.Pointer.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [go-HTTP 服务优雅退出](/t/编程语言/golang/go-HTTP服务优雅退出.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
+  - [二进制包体积压缩](/t/编程语言/golang/二进制包体积压缩.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-12-09</datetime>]</i>
+  - [eface_and_iface](/t/编程语言/golang/eface_and_iface.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [GMP 模型](/t/编程语言/golang/GMP模型.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [golang 中的几种压缩和解压方式](/t/编程语言/golang/golang中的几种压缩和解压方式.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-02-26</datetime>]</i>
 - llvm
-  - [flex](/t/编程语言/llvm/flex.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-02-11</datetime>]</i>
   - [bison](/t/编程语言/llvm/bison.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-02-11</datetime>]</i>
+  - [flex](/t/编程语言/llvm/flex.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-02-11</datetime>]</i>
 - lua
-  - [token](/t/编程语言/lua/token.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [VM](/t/编程语言/lua/VM.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [chunk 文件结构](/t/编程语言/lua/chunk文件结构.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [object](/t/编程语言/lua/object.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [目录结构](/t/编程语言/lua/目录结构.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [index](/t/编程语言/lua/index.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [entry-lua 入口](/t/编程语言/lua/entry-lua入口.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [VM](/t/编程语言/lua/VM.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [token](/t/编程语言/lua/token.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [目录结构](/t/编程语言/lua/目录结构.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [object](/t/编程语言/lua/object.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [index](/t/编程语言/lua/index.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [chunk 文件结构](/t/编程语言/lua/chunk文件结构.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - python
-  - [python 扩展或嵌入解释器开发](/t/编程语言/python/python扩展或嵌入解释器开发.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [Python 使用 C 或 C++ 扩展类](/t/编程语言/python/Python使用C或C++扩展类.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [python 通过 ffi 调用 C 代码](/t/编程语言/python/python通过ffi调用C代码.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [Python 扩展 c-c++--mapping 扩展](/t/编程语言/python/Python扩展c-c++--mapping扩展.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [Python 扩展-C-C++ 实现生成器和迭代器](/t/编程语言/python/Python扩展-C-C++实现生成器和迭代器.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [Python 生成任意尺寸大小的测试图片](/t/编程语言/python/Python生成任意尺寸大小的测试图片.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-20</datetime>]</i>
+  - [PythonJIT-copy-and-patch 的处理的详细过程上](/t/编程语言/python/PythonJIT-copy-and-patch的处理的详细过程上.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-17</datetime>]</i>
   - [PythonJIT-反向推断 JIT-patch 的生成过程](/t/编程语言/python/PythonJIT-反向推断JIT-patch的生成过程.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-08</datetime>]</i>
   - [2019-12-17-multiple-thread-to-consume-queue](/t/编程语言/python/2019-12-17-multiple-thread-to-consume-queue.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [小试牛刀 - 执行 shellcode](/t/编程语言/python/小试牛刀-执行shellcode.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-11</datetime>]</i>
   - [PythonJIT-如何执行](/t/编程语言/python/PythonJIT-如何执行.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-10</datetime>]</i>
-  - [python 学习大纲](/t/编程语言/python/python学习大纲.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-  - [Python 生成任意尺寸大小的测试图片](/t/编程语言/python/Python生成任意尺寸大小的测试图片.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-20</datetime>]</i>
-  - [如何在 Ubuntu2404 上编译 PythonJIT](/t/编程语言/python/如何在Ubuntu2404上编译PythonJIT.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-11-25</datetime>]</i>
-  - [PythonJIT-copy-and-patch 的处理的详细过程上](/t/编程语言/python/PythonJIT-copy-and-patch的处理的详细过程上.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-17</datetime>]</i>
+  - [Python 扩展 c-c++--mapping 扩展](/t/编程语言/python/Python扩展c-c++--mapping扩展.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [python 模块扩展之注册回调函数](/t/编程语言/python/python模块扩展之注册回调函数.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [Python 扩展-C-C++ 实现生成器和迭代器](/t/编程语言/python/Python扩展-C-C++实现生成器和迭代器.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [PythonJIT 中的机器代码是如何生成的](/t/编程语言/python/PythonJIT中的机器代码是如何生成的.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-11-25</datetime>]</i>
+  - [如何在 Ubuntu2404 上编译 PythonJIT](/t/编程语言/python/如何在Ubuntu2404上编译PythonJIT.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-11-25</datetime>]</i>
+  - [python 扩展或嵌入解释器开发](/t/编程语言/python/python扩展或嵌入解释器开发.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [小试牛刀 - 执行 shellcode](/t/编程语言/python/小试牛刀-执行shellcode.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-11</datetime>]</i>
+  - [python 学习大纲](/t/编程语言/python/python学习大纲.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [Python 使用 C 或 C++ 扩展类](/t/编程语言/python/Python使用C或C++扩展类.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - Python 内核源码解析
-    - [python-ast 优化](/t/编程语言/python/Python内核源码解析/python-ast优化.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
-    - [大纲](/t/编程语言/python/Python内核源码解析/大纲.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
-    - [python-opcode 优化 - 中](/t/编程语言/python/Python内核源码解析/python-opcode优化-中.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-04</datetime>]</i>
-    - [底层基础数据结构 PyObject](/t/编程语言/python/Python内核源码解析/底层基础数据结构PyObject.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
     - [python 内核基础元素字典 - 上](/t/编程语言/python/Python内核源码解析/python内核基础元素字典-上.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
-    - [Python 内核基础元素 int](/t/编程语言/python/Python内核源码解析/Python内核基础元素int.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+    - [底层基础数据结构 PyObject](/t/编程语言/python/Python内核源码解析/底层基础数据结构PyObject.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
     - [Parse-Python 实现自己的 JSON-encode](/t/编程语言/python/Python内核源码解析/Parse-Python实现自己的JSON-encode.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-10-22</datetime>]</i>
-    - [python-opcode 优化 - 下](/t/编程语言/python/Python内核源码解析/python-opcode优化-下.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
-    - [非真非假](/t/编程语言/python/Python内核源码解析/非真非假.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
-    - [Parse-Python 实现 JSON-decode 解析器](/t/编程语言/python/Python内核源码解析/Parse-Python实现JSON-decode解析器.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-10-22</datetime>]</i>
     - [字节码](/t/编程语言/python/Python内核源码解析/字节码.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
-    - [栈帧](/t/编程语言/python/Python内核源码解析/栈帧.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
-    - [index](/t/编程语言/python/Python内核源码解析/index.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-11-04</datetime>]</i>
-    - [Parse-入门字符解析-python 实现简单的计算器](/t/编程语言/python/Python内核源码解析/Parse-入门字符解析-python实现简单的计算器.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-10-22</datetime>]</i>
-    - [python_with_open_without_close](/t/编程语言/python/Python内核源码解析/python_with_open_without_close.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
-    - [python-opcode 优化 - 上](/t/编程语言/python/Python内核源码解析/python-opcode优化-上.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-04</datetime>]</i>
-    - [python 内核基础元素字典 - 下](/t/编程语言/python/Python内核源码解析/python内核基础元素字典-下.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
-    - [实现 hash](/t/编程语言/python/Python内核源码解析/实现hash.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-11-02</datetime>]</i>
     - [python-ast 优化深入研究](/t/编程语言/python/Python内核源码解析/python-ast优化深入研究.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-04</datetime>]</i>
+    - [Parse-入门字符解析-python 实现简单的计算器](/t/编程语言/python/Python内核源码解析/Parse-入门字符解析-python实现简单的计算器.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-10-22</datetime>]</i>
+    - [python 内核基础元素字典 - 下](/t/编程语言/python/Python内核源码解析/python内核基础元素字典-下.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
+    - [非真非假](/t/编程语言/python/Python内核源码解析/非真非假.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
+    - [python-opcode 优化 - 上](/t/编程语言/python/Python内核源码解析/python-opcode优化-上.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-04</datetime>]</i>
+    - [Python 内核基础元素 int](/t/编程语言/python/Python内核源码解析/Python内核基础元素int.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+    - [栈帧](/t/编程语言/python/Python内核源码解析/栈帧.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
+    - [大纲](/t/编程语言/python/Python内核源码解析/大纲.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
+    - [python-opcode 优化 - 下](/t/编程语言/python/Python内核源码解析/python-opcode优化-下.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
+    - [python-opcode 优化 - 中](/t/编程语言/python/Python内核源码解析/python-opcode优化-中.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-04</datetime>]</i>
+    - [Parse-Python 实现 JSON-decode 解析器](/t/编程语言/python/Python内核源码解析/Parse-Python实现JSON-decode解析器.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-10-22</datetime>]</i>
+    - [index](/t/编程语言/python/Python内核源码解析/index.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-11-04</datetime>]</i>
+    - [python-ast 优化](/t/编程语言/python/Python内核源码解析/python-ast优化.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
+    - [实现 hash](/t/编程语言/python/Python内核源码解析/实现hash.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2022-11-02</datetime>]</i>
     - [使用 vscode 调试 Python 内核代码](/t/编程语言/python/Python内核源码解析/使用vscode调试Python内核代码.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
+    - [python_with_open_without_close](/t/编程语言/python/Python内核源码解析/python_with_open_without_close.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-03-07</datetime>]</i>
   - 动手实现 toy-language
     - [lexer-词法分析](/t/编程语言/python/动手实现toy-language/lexer-词法分析.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-02-25</datetime>]</i>
 - 编译原理
-  - [JIT](/t/编程语言/编译原理/JIT.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-01-29</datetime>]</i>
-  - [正则表达式](/t/编程语言/编译原理/正则表达式.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
-  - [汇编指令](/t/编程语言/编译原理/汇编指令.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
-  - [虚拟机](/t/编程语言/编译原理/虚拟机.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [编译器后端优化](/t/编程语言/编译原理/编译器后端优化.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
-  - [寄存器](/t/编程语言/编译原理/寄存器.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
-  - [X86 机器指令编码](/t/编程语言/编译原理/X86机器指令编码.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
+  - [ast](/t/编程语言/编译原理/ast.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-01-29</datetime>]</i>
+  - [编译器后端优化算法](/t/编程语言/编译原理/编译器后端优化算法.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
+  - [JIT](/t/编程语言/编译原理/JIT.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-01-29</datetime>]</i>
+  - [tokenizer](/t/编程语言/编译原理/tokenizer.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [正则表达式](/t/编程语言/编译原理/正则表达式.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
   - [parser](/t/编程语言/编译原理/parser.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
   - [状态机](/t/编程语言/编译原理/状态机.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
+  - [虚拟机](/t/编程语言/编译原理/虚拟机.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [汇编指令](/t/编程语言/编译原理/汇编指令.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
+  - [寄存器](/t/编程语言/编译原理/寄存器.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
+  - [用数学解决编程问题](/t/编程语言/编译原理/用数学解决编程问题.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
   - [code-gen](/t/编程语言/编译原理/code-gen.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
   - [归约计算](/t/编程语言/编译原理/归约计算.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-04</datetime>]</i>
-  - [tokenizer](/t/编程语言/编译原理/tokenizer.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [X86 机器指令编码](/t/编程语言/编译原理/X86机器指令编码.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
   - [自底向上](/t/编程语言/编译原理/自底向上.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
-  - [编译器后端优化算法](/t/编程语言/编译原理/编译器后端优化算法.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
-  - [ast](/t/编程语言/编译原理/ast.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-01-29</datetime>]</i>
-  - [用数学解决编程问题](/t/编程语言/编译原理/用数学解决编程问题.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-05-02</datetime>]</i>
-## 前端知识
-- [2019-12-23-parse-excel-time](/t/前端知识/2019-12-23-parse-excel-time.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-## 其它
-- [视频切割](/t/其它/视频切割.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## 计算机组成
 - [基础](/t/计算机组成/基础.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
-## 机器学习
-- [pytorch](/t/机器学习/pytorch.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2023-03-19</datetime>]</i>
-- [tensorflow-推荐系统](/t/机器学习/tensorflow-推荐系统.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-21</datetime>]</i>
-- [余弦相似](/t/机器学习/余弦相似.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-21</datetime>]</i>
+## Linux
+- [Linux 下手动编译编辑器 Zed](/t/Linux/Linux下手动编译编辑器Zed.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
+- 2019
+  - [2019-12-17-grep-awk-sed-sort-etc](/t/Linux/2019/2019-12-17-grep-awk-sed-sort-etc.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- 2020
+  - [2020-12-16-grep-parameters](/t/Linux/2020/2020-12-16-grep-parameters.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [2020-12-15-simple-command-in-curl](/t/Linux/2020/2020-12-15-simple-command-in-curl.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [2020-09-01-linux-tools-jq-json-processor](/t/Linux/2020/2020-09-01-linux-tools-jq-json-processor.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- 2021
+  - [2021-03-02-install-logstash-clickhouse-plugin](/t/Linux/2021/2021-03-02-install-logstash-clickhouse-plugin.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- 动态追踪技术
+  - [ebpf](/t/Linux/动态追踪技术/ebpf.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [ebpf-helloworld 入门](/t/Linux/动态追踪技术/ebpf-helloworld入门.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [ebpf-数据结构介绍](/t/Linux/动态追踪技术/ebpf-数据结构介绍.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [ebpf-和用户态交互](/t/Linux/动态追踪技术/ebpf-和用户态交互.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [ebpf-修改函数入参和返回值](/t/Linux/动态追踪技术/ebpf-修改函数入参和返回值.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2023-03-28</datetime>]</i>
+  - [xdp 高速数据路径](/t/Linux/动态追踪技术/xdp高速数据路径.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [ebpf 参数获取](/t/Linux/动态追踪技术/ebpf参数获取.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [ebpf-五大模块](/t/Linux/动态追踪技术/ebpf-五大模块.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- 进程 - 线程 - 协程
+  - [信号及通讯](/t/Linux/进程-线程-协程/信号及通讯.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [分布式锁](/t/Linux/进程-线程-协程/分布式锁.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
+  - [IPC 进程间通讯](/t/Linux/进程-线程-协程/IPC进程间通讯.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [bpftrace](/t/Linux/进程-线程-协程/bpftrace.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [锁](/t/Linux/进程-线程-协程/锁.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+  - [5 钟 IO 模型](/t/Linux/进程-线程-协程/5钟IO模型.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
