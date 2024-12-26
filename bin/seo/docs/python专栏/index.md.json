@@ -1,1 +1,5 @@
-Please provide me with the article you want me to analyze for SEO optimization.  I need the text of the article to extract keywords, write a description, and suggest a title.  Once you provide the article, I will return a JSON object in the format you requested:  `{keywords: [], description: , title: }`
+{
+  "keywords": ["Python", "Python入门", "Python教程", "Python编程", "Python爬虫", "Python数据分析", "Python机器学习", "Python Web开发", "Python项目实战", "编程学习", "零基础学习Python"],
+  "description": "本专栏带你从零开始学习Python编程，涵盖Python基础语法、Web开发、爬虫、数据分析、机器学习及项目实战，更有挑战性项目：用Python编写解释器和编译器！即使是零基础也能轻松上手，快速掌握Python技能。",
+  "title": "零基础Python速成：从入门到编写编译器！"
+}

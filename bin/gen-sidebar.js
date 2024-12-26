@@ -145,7 +145,9 @@ const parseTree = (node, link) => {
 
 let sidebar = parseTree(node, '')
 
-let navs = ['生活', '读后感', '一些收藏', '经济', '一些想法', '关于我', ]
+// autocorrect-disable
+let navs = ['生活', '读后感', '一些收藏', '经济', '一些想法', '关于我', 'python专栏', 'seo' ]
+// autocorrect-enable
 
 let navPath = {}
 navs.forEach(function(nav) {
