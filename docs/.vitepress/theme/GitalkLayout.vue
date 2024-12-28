@@ -18,12 +18,12 @@
     </template>
     <template #aside-top>
       <!-- 左右两侧的广告 -->
-      <ins class="adsbygoogle"
+      <!-- <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-6736185910574882"
         data-ad-slot="4697814017"
         data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
+        data-full-width-responsive="true"></ins> -->
     </template>
 
     <template #aside-bottom>
@@ -103,6 +103,8 @@
   onMounted(() => {
     initGitalk()
     try {
+      window.addAds()
+      window.addAds()
       window.addAds()
       console.log('AdUnit loaded')
     } catch (e) {

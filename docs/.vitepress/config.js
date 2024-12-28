@@ -42,6 +42,10 @@ export default {
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6736185910574882',
         crossorigin: 'anonymous'
       },
+    ],
+    [
+      'script',
+      {},
       `
       window['addAds'] = function(){
         (adsbygoogle = window.adsbygoogle || []).push({});
