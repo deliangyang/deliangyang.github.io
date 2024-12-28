@@ -100,7 +100,15 @@
   }
   
   // 初始化和页面切换时加载评论插件
-  onMounted(initGitalk)
+  onMounted(() => {
+    initGitalk()
+    try {
+      window.addAds()
+      console.log('AdUnit loaded')
+    } catch (e) {
+      console.log(e)
+    }
+  })
   watch(
     () => route.path,
     initGitalk,
