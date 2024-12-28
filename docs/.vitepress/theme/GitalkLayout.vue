@@ -107,7 +107,14 @@
       console.log('AdUnit loaded')
     } catch (e) {
       console.log(e)
+      try {
+        let adsbygoogle = window.adsbygoogle || [];
+        adsbygoogle.push({});
+      } catch (e) {
+        console.log(e)
+      }
     }
+    
   })
   watch(
     () => route.path,
