@@ -104,8 +104,6 @@
     initGitalk()
     try {
       window.addAds()
-      window.addAds()
-      window.addAds()
       console.log('AdUnit loaded')
     } catch (e) {
       console.log(e)
