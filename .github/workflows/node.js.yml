@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: yarn docs:mpa
+    - run: yarn docs:build
     - run: echo "google.com, pub-6736185910574882, DIRECT, f08c47fec0942fa0" > ads.txt
     # - run: cp CNAME docs/.vitepress/dist
     - name: commit push
