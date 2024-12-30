@@ -1,5 +1,6 @@
-## 2024-12 <i style="color:#999;font-size:14px">(共 7 篇)</i>
+## 2024-12 <i style="color:#999;font-size:14px">(共 8 篇)</i>
 ::: timeline 2024-12-30
+- [Linux-Ubuntu 下手动编译 Linux 终端工具 Ghostty](/t/Linux/Ubuntu下手动编译Linux终端工具Ghostty.md)
 - [python-Python 生成任意尺寸大小的测试图片](/t/编程语言/python/Python生成任意尺寸大小的测试图片.md)
 :::
 
@@ -314,12 +315,6 @@
 - [监控-prometheus](/t/大数据/监控/prometheus.md)
 - [编译原理-parser](/t/编程语言/编译原理/parser.md)
 - [编译原理-code-gen](/t/编程语言/编译原理/code-gen.md)
-:::
-
-
-##  <i style="color:#999;font-size:14px">(共 1 篇)</i>
-::: timeline 
-- [Linux-Ubuntu 下手动编译 Linux 终端工具 Ghostty](/t/Linux/Ubuntu下手动编译Linux终端工具Ghostty.md)
 :::
 
 

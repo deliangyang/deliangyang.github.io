@@ -5,7 +5,7 @@
 - 2019
   - [2019-12-17-grep-awk-sed-sort-etc](/t/Linux/2019/2019-12-17-grep-awk-sed-sort-etc.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - 2020
-  - [Ubuntu 下手动编译 Linux 终端工具 Ghostty](/t/Linux/Ubuntu下手动编译Linux终端工具Ghostty.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+  - [Ubuntu 下手动编译 Linux 终端工具 Ghostty](/t/Linux/Ubuntu下手动编译Linux终端工具Ghostty.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-12-30</datetime>]</i>
   - [2020-09-01-linux-tools-jq-json-processor](/t/Linux/2020/2020-09-01-linux-tools-jq-json-processor.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [2020-12-16-grep-parameters](/t/Linux/2020/2020-12-16-grep-parameters.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [2020-12-15-simple-command-in-curl](/t/Linux/2020/2020-12-15-simple-command-in-curl.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
