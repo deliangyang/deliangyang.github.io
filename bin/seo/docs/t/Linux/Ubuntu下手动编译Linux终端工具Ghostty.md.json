@@ -1,0 +1,5 @@
+{
+  "keywords": ["Ghostty", "Ubuntu", "Linux", "终端工具", "Zig", "编译安装", "GTK4", "Shell集成", "Bash", "Zsh", "Fish", "Elvish", "分屏终端", "开源项目", "手动编译"],
+  "description": "本文手把手教你如何在 Ubuntu 系统下手动编译安装 Ghostty 终端工具，包含详细的安装步骤、依赖包解决方法以及 Shell 集成配置，体验这款强大的分屏终端工具。",
+  "title": "Ubuntu 手动编译 Ghostty：体验强大的分屏终端利器！"
+}
