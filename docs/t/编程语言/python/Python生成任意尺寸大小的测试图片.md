@@ -9,7 +9,7 @@
 于是，自己用 Python 写了一个脚本，用来生成指定尺寸大小和后缀的图片，主要用的是 PIL 库。代码如下：
 
 ```python
-from PIL import Image
+from PIL import Image, ImageFont, ImageDraw
 import sys
 from random import choice
 import os
@@ -23,7 +23,7 @@ if len(sys.argv) == 3:
 width, height = size.lower().split('x')
 
 color = [
-    'red',
+    # 'red',
     'green',
     'black',
     'blue',
@@ -33,7 +33,11 @@ color = [
     'pink',
 ]
 
-image = Image.new("RGB", (int(width), int(height)), choice(color))
+the_color = choice(color)
+image = Image.new("RGB", (int(width), int(height)), the_color)
+draw_image = ImageDraw.Draw(image)
+font = ImageFont.load_default(size=20)
+draw_image.text((10, 10), "%s" % size, fill='red', font=font)
 
 filename = "%s.%s" % (size, ext)
 save_path = os.path.join(os.path.expanduser("~"), "Downloads", filename)
