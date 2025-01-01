@@ -1,5 +1,5 @@
 {
-  "keywords": ["Python", "Python入门", "Python教程", "Python编程", "Python爬虫", "Python数据分析", "Python机器学习", "Python Web开发", "Python项目实战", "编程学习", "零基础学习Python"],
-  "description": "本专栏带你从零开始学习Python编程，涵盖Python基础语法、Web开发、爬虫、数据分析、机器学习及项目实战，更有挑战性项目：用Python编写解释器和编译器！即使是零基础也能轻松上手，快速掌握Python技能。",
-  "title": "零基础Python速成：从入门到编写编译器！"
+  "keywords": ["Python", "Python 教程", "Python 入门", "Python 编程", "Python 爬虫", "Python 数据分析", "Python 机器学习", "Python Web 开发", "Python 项目实战", "编程入门", "零基础学Python"],
+  "description": "本专栏带你从零开始学习Python编程，涵盖Python基础语法、Web开发、爬虫、数据分析、机器学习及项目实战，更有挑战性内容：用Python编写解释器和编译器！即使是零基础学员也能轻松掌握Python，开启编程之旅！",
+  "title": "从零到英雄：你的Python编程进阶之路（附编译器&解释器实战）"
 }
