@@ -99,6 +99,10 @@ export default {
       placeholder: 'Search',
       provider: 'local',
     },
+    adsense: {
+      client: 'ca-pub-6736185910574882',
+      docAfter: '3650362208'
+    },
     searchMaxSuggestions: 10,
     editLink: {
       pattern: "https://github.com/deliangyang/sntflyv.github.io/edit/master/docs/:path",

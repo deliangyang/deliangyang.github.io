@@ -15,4 +15,4 @@ console.log(a);
 
 ### 参考资料
 
-1.  [Basic Syntax](https://mermaid-js.github.io/mermaid/#/flowchart)
+1. [Basic Syntax](https://mermaid-js.github.io/mermaid/#/flowchart)
