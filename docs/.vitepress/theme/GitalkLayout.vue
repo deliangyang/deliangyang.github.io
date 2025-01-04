@@ -8,12 +8,12 @@
         data-ad-slot="1978187883"
         data-ad-format="auto"
         data-full-width-responsive="true"></ins>
-      <ins class="adsbygoogle"
+      <!-- <ins class="adsbygoogle"
         style="display:block; text-align:center;"
         data-ad-layout="in-article"
         data-ad-format="fluid"
         data-ad-client="ca-pub-6736185910574882"
-        data-ad-slot="3650362208"></ins>
+        data-ad-slot="3650362208"></ins> -->
       <div v-if="initGitalkStep" id="gitalk-container"></div>
     </template>
     <template #aside-top>
