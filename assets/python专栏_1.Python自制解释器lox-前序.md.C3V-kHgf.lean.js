@@ -1,0 +1,69 @@
+import{_ as e,c as l,j as s,a as p,G as o,a3 as i,B as c,o as t}from"./chunks/framework.BOyF8YV7.js";const P=JSON.parse('{"title":"python专栏_1.Python自制解释器lox-前序","description":"","frontmatter":{"head":[["link",{"rel":"canonical","href":"https://blog.ranchulin.com/python专栏/1.Python自制解释器lox-前序.html"}],["meta",{"property":"og:title","title":"python专栏_1.Python自制解释器lox-前序"}],["meta",{"property":"og:url","content":"https://blog.ranchulin.com/python专栏/1.Python自制解释器lox-前序.html"}],["meta",{"name":"keywords","content":""}]]},"headers":[],"relativePath":"python专栏/1.Python自制解释器lox-前序.md","filePath":"python专栏/1.Python自制解释器lox-前序.md","lastUpdated":1736299776000}'),r={name:"python专栏/1.Python自制解释器lox-前序.md"};function d(u,n,b,m,q,E){const a=c("Mermaid");return t(),l("div",null,[n[0]||(n[0]=s("h2",{id:"解释器执行-lox-代码的流程",tabindex:"-1"},[p("解释器执行 lox 代码的流程 "),s("a",{class:"header-anchor",href:"#解释器执行-lox-代码的流程","aria-label":'Permalink to "解释器执行 lox 代码的流程"'},"​")],-1)),o(a,{id:"mermaid_1a96284d",graph:"graph%20LR%0A%20%20%20%20A%5Blox%5D%20--%3E%20B%5B%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%5D%0A%20%20%20%20B%20--%3E%20C%5B%E8%AF%AD%E6%B3%95%E5%88%86%E6%9E%90%5D%0A%20%20%20%20C%20--%3E%20D%5B%E7%94%9F%E6%88%90%E6%8A%BD%E8%B1%A1%E8%AF%AD%E6%B3%95%E6%A0%91%5D%0A%20%20%20%20D%20--%3E%20E%5B%E7%94%9F%E6%88%90%E5%AD%97%E8%8A%82%E7%A0%81%5D%0A%20%20%20%20E%20--%3E%20F%5B%E6%89%A7%E8%A1%8C%E5%AD%97%E8%8A%82%E7%A0%81%5D"}),n[1]||(n[1]=i(`<h2 id="词法分析" tabindex="-1">词法分析 <a class="header-anchor" href="#词法分析" aria-label="Permalink to &quot;词法分析&quot;">​</a></h2><p>词法分析是将源代码转换为 token 流的过程。lox 语言的 token 有以下几种：</p><ul><li><code>(</code>, <code>)</code>, <code>{</code>, <code>}</code>, <code>,</code>, <code>.</code>, <code>;</code></li><li><code>+</code>, <code>-</code>, <code>*</code>, <code>/</code></li><li><code>!</code>, <code>!=</code>, <code>=</code>, <code>==</code>, <code>&gt;</code>, <code>&gt;=</code>, <code>&lt;</code>, <code>&lt;=</code></li><li><code>and</code>, <code>class</code>, <code>else</code>, <code>false</code>, <code>fun</code>, <code>for</code>, <code>if</code>, <code>nil</code>, <code>or</code>, <code>print</code>, <code>return</code>, <code>super</code>, <code>this</code>, <code>true</code>, <code>var</code>, <code>while</code></li><li><code>identifier</code></li><li><code>number</code></li><li><code>string</code></li><li><code>EOF</code></li><li><code>error</code></li><li><code>comment</code></li><li><code>whitespace</code></li></ul><h2 id="语法分析" tabindex="-1">语法分析 <a class="header-anchor" href="#语法分析" aria-label="Permalink to &quot;语法分析&quot;">​</a></h2><p>语法分析是将 token 流转换为抽象语法树的过程。lox 语言的语法规则如下：</p><div class="language-ebnf vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">ebnf</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>program        → declaration* EOF ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>declaration    → classDecl</span></span>
+<span class="line"><span>               | funDecl</span></span>
+<span class="line"><span>               | varDecl</span></span>
+<span class="line"><span>               | statement ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>classDecl      → &quot;class&quot; IDENTIFIER</span></span>
+<span class="line"><span>                ( &quot;&lt;&quot; IDENTIFIER )?</span></span>
+<span class="line"><span>                &quot;{&quot; function* &quot;}&quot; ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>funDecl        → &quot;fun&quot; function ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>function       → IDENTIFIER &quot;(&quot; parameters? &quot;)&quot; block ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>parameters     → IDENTIFIER ( &quot;,&quot; IDENTIFIER )* ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>varDecl        → &quot;var&quot; IDENTIFIER ( &quot;=&quot; expression )? &quot;;&quot; ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>statement      → exprStmt</span></span>
+<span class="line"><span>               | forStmt</span></span>
+<span class="line"><span>               | ifStmt</span></span>
+<span class="line"><span>               | printStmt</span></span>
+<span class="line"><span>               | returnStmt</span></span>
+<span class="line"><span>               | whileStmt</span></span>
+<span class="line"><span>               | block ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>exprStmt       → expression &quot;;&quot; ;</span></span>
+<span class="line"><span>forStmt        → &quot;for&quot; &quot;(&quot; ( varDecl | exprStmt | &quot;;&quot; )</span></span>
+<span class="line"><span>               expression? &quot;;&quot;</span></span>
+<span class="line"><span>               expression? &quot;)&quot; statement ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>ifStmt         → &quot;if&quot; &quot;(&quot; expression &quot;)&quot; statement ( &quot;else&quot; statement )? ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>printStmt      → &quot;print&quot; expression &quot;;&quot; ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>returnStmt     → &quot;return&quot; expression? &quot;;&quot; ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>whileStmt      → &quot;while&quot; &quot;(&quot; expression &quot;)&quot; statement ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>block          → &quot;{&quot; declaration* &quot;}&quot; ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>expression     → assignment ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>assignment     → ( call &quot;.&quot; )? IDENTIFIER &quot;=&quot; assignment</span></span>
+<span class="line"><span>               | logic_or ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>logic_or       → logic_and ( &quot;or&quot; logic_and )* ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>logic_and      → equality ( &quot;and&quot; equality )* ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>equality       → comparison ( ( &quot;!=&quot; | &quot;==&quot; ) comparison )* ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>comparison     → addition ( ( &quot;&gt;&quot; | &quot;&gt;=&quot; | &quot;&lt;&quot; | &quot;&lt;=&quot; ) addition )* ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>addition       → multiplication ( ( &quot;-&quot; | &quot;+&quot; ) multiplication )* ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>multiplication → unary ( ( &quot;/&quot; | &quot;*&quot; ) unary )* ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>unary          → ( &quot;!&quot; | &quot;-&quot; ) unary</span></span>
+<span class="line"><span>               | call ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>call           → primary ( &quot;(&quot; arguments? &quot;)&quot; | &quot;.&quot; IDENTIFIER )* ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>arguments      → expression ( &quot;,&quot; expression )* ;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>primary        → &quot;true&quot; | &quot;false&quot; | &quot;nil&quot; | &quot;this&quot;</span></span>
+<span class="line"><span>               | NUMBER | STRING | IDENTIFIER</span></span>
+<span class="line"><span>               | &quot;(&quot; expression &quot;)&quot; ;</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br></div></div><h2 id="生成抽象语法树" tabindex="-1">生成抽象语法树 <a class="header-anchor" href="#生成抽象语法树" aria-label="Permalink to &quot;生成抽象语法树&quot;">​</a></h2><p>抽象语法树是一种树形结构，用于表示程序的语法结构。lox 语言的抽象语法树节点有以下几种：</p><ul><li><code>Binary</code>：二元表达式</li><li><code>Grouping</code>：分组表达式</li><li><code>Literal</code>：字面量表达式</li><li><code>Unary</code>：一元表达式</li><li><code>Variable</code>：变量表达式</li><li><code>Assign</code>：赋值表达式</li><li><code>Logical</code>：逻辑表达式</li><li><code>Call</code>：函数调用表达式</li><li><code>Get</code>：属性访问表达式</li><li><code>Set</code>：属性赋值表达式</li><li><code>This</code>：this 表达式</li><li><code>Super</code>：super 表达式</li><li><code>Function</code>：函数表达式</li><li><code>Return</code>：返回表达式</li><li><code>Class</code>：类表达式</li><li><code>Block</code>：块表达式</li><li><code>Expression</code>：表达式语句</li><li><code>Print</code>：打印语句</li><li><code>Var</code>：变量声明语句</li><li><code>If</code>：if 语句</li><li><code>While</code>：while 语句</li><li><code>For</code>：for 语句</li><li><code>Break</code>：break 语句</li><li><code>Continue</code>：continue 语句</li><li><code>Function</code>：函数声明语句</li><li><code>Error</code>：错误语句</li><li><code>Empty</code>：空语句</li><li><code>Block</code>：块语句</li></ul><h2 id="生成字节码" tabindex="-1">生成字节码 <a class="header-anchor" href="#生成字节码" aria-label="Permalink to &quot;生成字节码&quot;">​</a></h2><p>字节码是一种中间表示形式，用于表示程序的执行逻辑。lox 语言的字节码指令有以下几种：</p><ul><li><code>OP_CONSTANT</code>：将常量推入栈顶</li><li><code>OP_NIL</code>：将 nil 值推入栈顶</li><li><code>OP_TRUE</code>：将 true 值推入栈顶</li><li><code>OP_FALSE</code>：将 false 值推入栈顶</li><li><code>OP_POP</code>：弹出栈顶元素</li><li><code>OP_GET_LOCAL</code>：获取局部变量</li><li><code>OP_SET_LOCAL</code>：设置局部变量</li><li><code>OP_GET_GLOBAL</code>：获取全局变量</li><li><code>OP_DEFINE_GLOBAL</code>：定义全局变量</li><li><code>OP_SET_GLOBAL</code>：设置全局变量</li><li><code>OP_EQUAL</code>：比较相等</li><li><code>OP_GREATER</code>：比较大于</li><li><code>OP_LESS</code>：比较小于</li><li><code>OP_ADD</code>：加法运算</li><li><code>OP_SUBTRACT</code>：减法运算</li><li><code>OP_MULTIPLY</code>：乘法运算</li><li><code>OP_DIVIDE</code>：除法运算</li><li><code>OP_NOT</code>：逻辑非运算</li><li><code>OP_NEGATE</code>：取负运算</li><li><code>OP_PRINT</code>：打印栈顶元素</li><li><code>OP_JUMP</code>：无条件跳转</li><li><code>OP_JUMP_IF_FALSE</code>：条件跳转</li><li><code>OP_LOOP</code>：循环跳转</li><li><code>OP_CALL</code>：调用函数</li><li><code>OP_RETURN</code>：返回值</li><li><code>OP_CLASS</code>：定义类</li><li><code>OP_METHOD</code>：定义方法</li><li><code>OP_INVOKE</code>：调用方法</li><li><code>OP_GET_PROPERTY</code>：获取属性</li><li><code>OP_SET_PROPERTY</code>：设置属性</li><li><code>OP_INHERIT</code>：继承类</li><li><code>OP_GET_SUPER</code>：获取父类</li><li><code>OP_SUPER_INVOKE</code>：调用父类方法</li><li><code>OP_CLOSE_UPVALUE</code>：关闭上值</li><li><code>OP_CLOSURE</code>：创建闭包</li><li><code>OP_GET_UPVALUE</code>：获取上值</li><li><code>OP_SET_UPVALUE</code>：设置上值</li><li><code>OP_GET_PROPERTY</code>：获取属性</li><li><code>OP_SET_PROPERTY</code>：设置属性</li></ul><h2 id="执行字节码" tabindex="-1">执行字节码 <a class="header-anchor" href="#执行字节码" aria-label="Permalink to &quot;执行字节码&quot;">​</a></h2>`,13))])}const h=e(r,[["render",d]]);export{P as __pageData,h as default};

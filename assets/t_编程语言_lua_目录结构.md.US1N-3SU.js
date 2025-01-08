@@ -1,0 +1,27 @@
+import{_ as s,c as n,a3 as l,o as p}from"./chunks/framework.BOyF8YV7.js";const o=JSON.parse('{"title":"Lua 工程目录结构及核心头文件详解","description":"本文分析了 Lua 工程的目录结构，详细列出了各个头文件（如 lapi.h, lauxlib.h, lcode.h 等）的功能和作用，涵盖了 Lua 的核心组件，例如虚拟机、垃圾回收、内存管理、词法分析器等。 通过查看这些头文件，可以深入了解 Lua 的内部实现机制。","frontmatter":{"head":[["link",{"rel":"canonical","href":"https://blog.ranchulin.com/t/编程语言/lua/目录结构.html"}],["meta",{"property":"og:title","title":"Lua 工程目录结构及核心头文件详解"}],["meta",{"property":"og:url","content":"https://blog.ranchulin.com/t/编程语言/lua/目录结构.html"}],["meta",{"name":"keywords","content":"lua,lua工程,目录结构,头文件,lapi.h,lauxlib.h,lcode.h,ldebug.h,ldo.h,lfunc.h,lgc.h,llex.h,lmem.h,lobject.h,lopcodes.h,lparser.h,lstate.h,lstring.h,ltable.h,ltm.h,lua.h,lua.hpp,luaconf.h,lualib.h,lundump.h,lvm.h,lzio.h,代码生成器,垃圾回收,词法分析器,内存管理,虚拟机,解释器,配置文件,辅助库,栈,调试,字符串,表操作,预编译,缓冲区,C++"}]]},"headers":[],"relativePath":"t/编程语言/lua/目录结构.md","filePath":"t/编程语言/lua/目录结构.md","lastUpdated":1736299776000}'),e={name:"t/编程语言/lua/目录结构.md"};function i(r,a,t,c,h,u){return p(),n("div",null,a[0]||(a[0]=[l(`<h3 id="lua-工程目录结构" tabindex="-1">lua 工程目录结构 <a class="header-anchor" href="#lua-工程目录结构" aria-label="Permalink to &quot;lua 工程目录结构&quot;">​</a></h3><h4 id="查看-lua-的头文件" tabindex="-1">查看 lua 的头文件 <a class="header-anchor" href="#查看-lua-的头文件" aria-label="Permalink to &quot;查看 lua 的头文件&quot;">​</a></h4><div class="language-bash vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">bash</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">tree</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">|</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> grep</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -vP</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &#39;.c$&#39;</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><div class="language-text vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>.</span></span>
+<span class="line"><span>├── lapi.h              // </span></span>
+<span class="line"><span>├── lauxlib.h           // 提供给外部使用的辅助库</span></span>
+<span class="line"><span>├── lcode.h             // lua 的代码生成器</span></span>
+<span class="line"><span>├── lctype.h            // </span></span>
+<span class="line"><span>├── ldebug.h            // 调试结构</span></span>
+<span class="line"><span>├── ldo.h               // lua 的栈和调动结构</span></span>
+<span class="line"><span>├── lfunc.h             // 包装原型和闭包的辅助函数库</span></span>
+<span class="line"><span>├── lgc.h               // 垃圾回收</span></span>
+<span class="line"><span>├── llex.h              // 词法分析器</span></span>
+<span class="line"><span>├── llimits.h           // </span></span>
+<span class="line"><span>├── lmem.h              // 内存管理</span></span>
+<span class="line"><span>├── lobject.h           // lua 基本类型</span></span>
+<span class="line"><span>├── lopcodes.h          // lua 虚拟机的操作符</span></span>
+<span class="line"><span>├── lparser.h           //</span></span>
+<span class="line"><span>├── lprefix.h           //</span></span>
+<span class="line"><span>├── lstate.h            // 虚拟机状态结构</span></span>
+<span class="line"><span>├── lstring.h           // string 库</span></span>
+<span class="line"><span>├── ltable.h            // 表操作</span></span>
+<span class="line"><span>├── ltm.h               // Tag methods</span></span>
+<span class="line"><span>├── lua.h               // lua 独立解释器</span></span>
+<span class="line"><span>├── lua.hpp             // c++</span></span>
+<span class="line"><span>├── luaconf.h           // Configuration file for Lua, lua 的配置文件</span></span>
+<span class="line"><span>├── lualib.h            // </span></span>
+<span class="line"><span>├── lundump.h           // 保存预编译的 lua 代码块，</span></span>
+<span class="line"><span>├── lvm.h               // 虚拟机</span></span>
+<span class="line"><span>└── lzio.h              // 通用的带缓冲区的输入流接口</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div>`,4)]))}const m=s(e,[["render",i]]);export{o as __pageData,m as default};
