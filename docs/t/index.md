@@ -218,4 +218,4 @@
 - [pytorch](/t/机器学习/pytorch.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2023-03-19</datetime>]</i>
 - [tensorflow-推荐系统](/t/机器学习/tensorflow-推荐系统.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-21</datetime>]</i>
 - [余弦相似](/t/机器学习/余弦相似.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-21</datetime>]</i>
-- [异构计算](/t/机器学习/异构计算.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+- [异构计算](/t/机器学习/异构计算.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-07-21</datetime>]</i>
