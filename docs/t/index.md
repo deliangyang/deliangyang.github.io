@@ -212,6 +212,7 @@
 - [2019-12-23-parse-excel-time](/t/前端知识/2019-12-23-parse-excel-time.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## 其它
 - [视频切割](/t/其它/视频切割.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [Chrome 插件开发](/t/其它/Chrome插件开发.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
 ## 计算机组成
 - [基础](/t/计算机组成/基础.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## 机器学习
