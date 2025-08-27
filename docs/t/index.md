@@ -88,7 +88,7 @@
   - [ssh 实现端口转发](/t/网络编程/SSH/ssh实现端口转发.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## ai
 - mcp
-  - [start](/t/ai/mcp/start.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+  - [start](/t/ai/mcp/start.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-08-27</datetime>]</i>
 ## 大数据
 - ClickHouse
   - [注意事项](/t/大数据/ClickHouse/注意事项.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2021-07-21</datetime>]</i>
