@@ -342,7 +342,7 @@
 
 ##  <i style="color:#999;font-size:14px">(共 1 篇)</i>
 ::: timeline 
-- [其它-Chrome 插件开发 - 实现一个测标栏](/t/其它/Chrome插件开发-实现一个测标栏.md)
+- [其它-Chrome 插件开发 - 实现一个测边栏](/t/其它/Chrome插件开发-实现一个测边栏.md)
 :::
 
 
