@@ -1,3 +1,9 @@
+## 2025-09 <i style="color:#999;font-size:14px">(共 1 篇)</i>
+::: timeline 2025-09-09
+- [其它-Chrome 插件开发 - 实现一个测边栏](/t/其它/Chrome插件开发-实现一个测边栏.md)
+:::
+
+
 ## 2025-08 <i style="color:#999;font-size:14px">(共 1 篇)</i>
 ::: timeline 2025-08-27
 - [mcp-start](/t/ai/mcp/start.md)
@@ -337,12 +343,6 @@
 - [监控-prometheus](/t/大数据/监控/prometheus.md)
 - [编译原理-parser](/t/编程语言/编译原理/parser.md)
 - [编译原理-code-gen](/t/编程语言/编译原理/code-gen.md)
-:::
-
-
-##  <i style="color:#999;font-size:14px">(共 1 篇)</i>
-::: timeline 
-- [其它-Chrome 插件开发 - 实现一个测边栏](/t/其它/Chrome插件开发-实现一个测边栏.md)
 :::
 
 
