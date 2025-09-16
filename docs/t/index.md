@@ -2,6 +2,7 @@
 ## 算法
 - [红黑树](/t/算法/红黑树.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## Linux
+- [fish-shell-为 git 提速](/t/Linux/fish-shell-为git提速.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
 - 2019
   - [2019-12-17-grep-awk-sed-sort-etc](/t/Linux/2019/2019-12-17-grep-awk-sed-sort-etc.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - 2020
