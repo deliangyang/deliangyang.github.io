@@ -2,6 +2,7 @@
 ## 算法
 - [红黑树](/t/算法/红黑树.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## Linux
+- [gitx 增强 git 功能高效管理项目](/t/Linux/gitx增强git功能高效管理项目.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
 - [fish-shell-为 git 提速](/t/Linux/fish-shell-为git提速.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-09-16</datetime>]</i>
 - 2019
   - [2019-12-17-grep-awk-sed-sort-etc](/t/Linux/2019/2019-12-17-grep-awk-sed-sort-etc.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
@@ -218,7 +219,7 @@
 - [Chrome 插件开发 - 实现一个测边栏](/t/其它/Chrome插件开发-实现一个测边栏.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-09-09</datetime>]</i>
 - [视频切割](/t/其它/视频切割.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - [Chrome 插件开发](/t/其它/Chrome插件开发.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-07-30</datetime>]</i>
-- [Chrome 插件开发 - 实现弹出层](/t/其它/Chrome插件开发-实现弹出层.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+- [Chrome 插件开发 - 实现弹出层](/t/其它/Chrome插件开发-实现弹出层.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-12-02</datetime>]</i>
 ## 计算机组成
 - [基础](/t/计算机组成/基础.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## 机器学习

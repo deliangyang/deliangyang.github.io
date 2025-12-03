@@ -25,7 +25,7 @@ Chrome 插件开发实现弹出层是通过 js 动态生成 DOM 结构，在 HTM
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

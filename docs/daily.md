@@ -1,3 +1,9 @@
+## 2025-12 <i style="color:#999;font-size:14px">(共 1 篇)</i>
+::: timeline 2025-12-02
+- [其它-Chrome 插件开发 - 实现弹出层](/t/其它/Chrome插件开发-实现弹出层.md)
+:::
+
+
 ## 2025-09 <i style="color:#999;font-size:14px">(共 2 篇)</i>
 ::: timeline 2025-09-16
 - [Linux-fish-shell-为 git 提速](/t/Linux/fish-shell-为git提速.md)
@@ -353,7 +359,7 @@
 
 ##  <i style="color:#999;font-size:14px">(共 1 篇)</i>
 ::: timeline 
-- [其它-Chrome 插件开发 - 实现弹出层](/t/其它/Chrome插件开发-实现弹出层.md)
+- [Linux-gitx 增强 git 功能高效管理项目](/t/Linux/gitx增强git功能高效管理项目.md)
 :::
 
 
