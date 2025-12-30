@@ -2,8 +2,13 @@
 ## 算法
 - [红黑树](/t/算法/红黑树.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## Linux
-- [gitx 增强 git 功能高效管理项目](/t/Linux/gitx增强git功能高效管理项目.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+- [AI-读取多语言生成结构化代码](/t/Linux/AI-读取多语言生成结构化代码.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+- [AI-如何使用 ai 快速编写一个工具脚本](/t/Linux/AI-如何使用ai快速编写一个工具脚本.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+- [gitx 增强 git 功能高效管理项目](/t/Linux/gitx增强git功能高效管理项目.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-12-03</datetime>]</i>
+- [gitx 增强 git 功能高效管理项目 - 前言](/t/Linux/gitx增强git功能高效管理项目-前言.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
 - [fish-shell-为 git 提速](/t/Linux/fish-shell-为git提速.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-09-16</datetime>]</i>
+- [gitx 增强 git 功能高效管理项目 - 同步主分支代码](/t/Linux/gitx增强git功能高效管理项目-同步主分支代码.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+- [gitx 增强 git 功能高效管理项目-AI 生成 commit 信息](/t/Linux/gitx增强git功能高效管理项目-AI生成commit信息.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
 - 2019
   - [2019-12-17-grep-awk-sed-sort-etc](/t/Linux/2019/2019-12-17-grep-awk-sed-sort-etc.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 - 2020
@@ -14,6 +19,7 @@
 - 2021
   - [Linux 下手动编译编辑器 Zed](/t/Linux/Linux下手动编译编辑器Zed.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-04-26</datetime>]</i>
   - [2021-03-02-install-logstash-clickhouse-plugin](/t/Linux/2021/2021-03-02-install-logstash-clickhouse-plugin.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [AI-总结 git 的提交汇成工作总结](/t/Linux/AI-总结git的提交汇成工作总结.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
 - 动态追踪技术
   - [ebpf-数据结构介绍](/t/Linux/动态追踪技术/ebpf-数据结构介绍.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
   - [ebpf](/t/Linux/动态追踪技术/ebpf.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
@@ -217,9 +223,13 @@
 - [2019-12-23-parse-excel-time](/t/前端知识/2019-12-23-parse-excel-time.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## 其它
 - [Chrome 插件开发 - 实现一个测边栏](/t/其它/Chrome插件开发-实现一个测边栏.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-09-09</datetime>]</i>
+- [Chrome 插件开发 - 实现我的设置页](/t/其它/Chrome插件开发-实现我的设置页.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+- [Chrome 插件开发-WXT 框架入门](/t/其它/Chrome插件开发-WXT框架入门.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
+- [Chrome 插件开发 - 拓展右键功能](/t/其它/Chrome插件开发-拓展右键功能.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
 - [视频切割](/t/其它/视频切割.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
+- [Chrome 插件开发 - 查看 commit 的文件列表](/t/其它/Chrome插件开发-查看commit的文件列表.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime></datetime>]</i>
 - [Chrome 插件开发](/t/其它/Chrome插件开发.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-07-30</datetime>]</i>
-- [Chrome 插件开发 - 实现弹出层](/t/其它/Chrome插件开发-实现弹出层.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-12-02</datetime>]</i>
+- [Chrome 插件开发 - 实现弹出层](/t/其它/Chrome插件开发-实现弹出层.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2025-12-03</datetime>]</i>
 ## 计算机组成
 - [基础](/t/计算机组成/基础.md) &nbsp;&nbsp;&nbsp;<i style="font-size:14px;color:#999">[<datetime>2024-08-02</datetime>]</i>
 ## 机器学习

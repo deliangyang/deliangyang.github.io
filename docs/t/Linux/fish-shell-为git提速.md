@@ -1,7 +1,8 @@
+# Fish Shell 优化 Git 命令效率
 
-本文主要的目的是通过 fish shell 将一下常用的 git 命令进行精简，或者组合，从而达到最少的键盘输入，快速完成 git 的操作。
+本文主要的目的是通过 fish shell 将一些常用的 git 命令进行精简，或者组合，从而达到最少的键盘输入，快速完成 git 的操作。
 
-主要我常用的 shell 工具是 fish shell，将核心逻辑转化为 bash，同样可以完成任务。
+我主要常用的 shell 工具是 fish shell，将核心逻辑转化为 bash，同样可以完成任务。
 
 ### 使用 alias 精简命令
 
@@ -9,7 +10,7 @@
 
 ```bash
 alias gl='git pull'                     # 拉取代码
-alias gr='git reset --head'             # 重置代码
+alias gr='git reset --hard'             # 重置代码
 alias gs='git status'                   # 查看状态
 alias ga='git add .'                    # 添加所有修改
 alias gm='git commit -m'                # 添加提交信息
@@ -214,7 +215,7 @@ function am
 	end
 	set summary (echo $diff | \
 		openai api chat.completions.create -m gpt-3.5-turbo -M 256 -g user \
-		 "将以下git diff总结为一行中文提交消息,注意根据内容仅添加一个前缀(feat|test|revert|chore|style):等，如果有多个内容的提交，请用列出1,2,3,4点等，分号分隔: $diff")
+		 "将以下git diff总结为一行中文提交消息，注意根据内容仅添加一个前缀(feat|test|revert|chore|style)等，如果有多个内容的提交，请列出1、2、3、4点等，分号分隔: $diff")
 
 	if test "$summary" = ""
 		echo "Failed to get summary from OpenAI, using default message"
